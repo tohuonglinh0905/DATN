@@ -1,0 +1,687 @@
+[INFO ] 26-05-2023 21:05:40 [main] [Log] - Loaded all properties files.
+[INFO ] 26-05-2023 21:05:40 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 26-05-2023 21:05:40 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 26-05-2023 21:05:41 [main] [Log] - TestBase: beforeSuite
+[INFO ] 26-05-2023 21:05:45 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 26-05-2023 21:05:45 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 26-05-2023 21:05:53 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 26-05-2023 21:05:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 21:05:56 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 21:05:56 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 21:05:56 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 26-05-2023 21:05:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 26-05-2023 21:05:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 26-05-2023 21:05:57 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 26-05-2023 21:05:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 26-05-2023 21:05:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 26-05-2023 21:05:58 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 26-05-2023 21:05:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 21:05:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 21:05:59 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 26-05-2023 21:05:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 26-05-2023 21:05:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 21:05:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 21:05:59 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 26-05-2023 21:05:59 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - FAIL 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 21:06:00 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/build-your-own-computer
+[ERROR] 26-05-2023 21:06:00 [main] [Log] - FAILED !! Screenshot for test case: WishList_02
+[ERROR] 26-05-2023 21:06:00 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'bar-notification success']//p"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87913ea9354bbbc5c0c0f8ce4ac10c66, findElement {using=xpath, value=//div[@class = 'bar-notification success']//p}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50516}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50516/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 87913ea9354bbbc5c0c0f8ce4ac10c66
+[INFO ] 26-05-2023 21:06:00 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 21:36:39 [main] [Log] - Loaded all properties files.
+[INFO ] 26-05-2023 21:36:39 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 26-05-2023 21:36:40 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 26-05-2023 21:36:40 [main] [Log] - TestBase: beforeSuite
+[INFO ] 26-05-2023 21:36:42 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 26-05-2023 21:36:42 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 26-05-2023 21:36:47 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 26-05-2023 21:36:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 21:36:50 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 21:36:50 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 21:36:50 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 26-05-2023 21:36:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 26-05-2023 21:36:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 26-05-2023 21:36:52 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 26-05-2023 21:36:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 26-05-2023 21:36:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 26-05-2023 21:36:53 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 26-05-2023 21:36:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 21:36:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 21:36:55 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 26-05-2023 21:36:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 26-05-2023 21:36:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 21:36:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 21:36:55 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 26-05-2023 21:37:48 [main] [Log] - Loaded all properties files.
+[INFO ] 26-05-2023 21:37:48 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 26-05-2023 21:37:48 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 26-05-2023 21:37:49 [main] [Log] - TestBase: beforeSuite
+[INFO ] 26-05-2023 21:37:50 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 26-05-2023 21:37:50 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 26-05-2023 21:37:55 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 26-05-2023 21:37:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 21:37:58 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 21:37:58 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 21:37:58 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 26-05-2023 21:38:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 26-05-2023 21:38:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 26-05-2023 21:38:00 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 26-05-2023 21:38:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 26-05-2023 21:38:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 26-05-2023 21:38:02 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 26-05-2023 21:38:05 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 21:38:05 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 21:38:05 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 26-05-2023 21:38:05 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 26-05-2023 21:38:05 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 21:38:05 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 21:38:05 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 26-05-2023 21:39:56 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - FAIL 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 21:39:56 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - FAIL 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 21:40:09 [main] [Log] - Loaded all properties files.
+[INFO ] 26-05-2023 21:40:09 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 26-05-2023 21:40:09 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 26-05-2023 21:40:10 [main] [Log] - TestBase: beforeSuite
+[INFO ] 26-05-2023 21:40:11 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 26-05-2023 21:40:11 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 26-05-2023 21:40:16 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 26-05-2023 21:40:22 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 21:40:22 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 21:40:22 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 21:40:23 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 26-05-2023 21:40:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 26-05-2023 21:40:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 26-05-2023 21:40:24 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 26-05-2023 21:40:25 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 26-05-2023 21:40:25 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 26-05-2023 21:40:25 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 26-05-2023 21:40:26 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 21:40:26 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 21:40:26 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 26-05-2023 21:40:26 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 26-05-2023 21:40:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 21:40:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 21:40:27 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 26-05-2023 21:40:28 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - FAIL 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 21:40:28 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/build-your-own-computer
+[ERROR] 26-05-2023 21:40:28 [main] [Log] - FAILED !! Screenshot for test case: WishList_02
+[ERROR] 26-05-2023 21:40:29 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'bar-notification success']"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7573d511b4e08485d101232bf1fe89eb, findElement {using=xpath, value=//div[@class = 'bar-notification success']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51739/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7573d511b4e08485d101232bf1fe89eb
+[INFO ] 26-05-2023 21:40:29 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:05:03 [main] [Log] - Loaded all properties files.
+[INFO ] 26-05-2023 22:05:03 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 26-05-2023 22:05:03 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:05:04 [main] [Log] - TestBase: beforeSuite
+[INFO ] 26-05-2023 22:05:06 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 26-05-2023 22:05:06 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 26-05-2023 22:05:12 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 26-05-2023 22:05:14 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:05:14 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:05:14 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:05:15 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 26-05-2023 22:05:15 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 26-05-2023 22:05:15 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 26-05-2023 22:05:15 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 26-05-2023 22:05:16 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 26-05-2023 22:05:16 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 26-05-2023 22:05:17 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 26-05-2023 22:05:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:05:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:05:18 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 26-05-2023 22:05:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 26-05-2023 22:05:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:05:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:05:19 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 26-05-2023 22:05:19 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - FAIL 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:05:20 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/build-your-own-computer
+[ERROR] 26-05-2023 22:05:20 [main] [Log] - FAILED !! Screenshot for test case: WishList_02
+[ERROR] 26-05-2023 22:05:20 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'bar-notification success']//p"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1695b83fd3092206b3634d2a3afa2dd6, findElement {using=xpath, value=//div[@class = 'bar-notification success']//p}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52426/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1695b83fd3092206b3634d2a3afa2dd6
+[INFO ] 26-05-2023 22:05:20 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:09:28 [main] [Log] - Loaded all properties files.
+[INFO ] 26-05-2023 22:09:28 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 26-05-2023 22:09:29 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:09:30 [main] [Log] - TestBase: beforeSuite
+[INFO ] 26-05-2023 22:09:33 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 26-05-2023 22:09:33 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 26-05-2023 22:09:39 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 26-05-2023 22:09:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:09:43 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:09:43 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:09:43 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 26-05-2023 22:09:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 26-05-2023 22:09:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 26-05-2023 22:09:44 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 26-05-2023 22:09:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 26-05-2023 22:09:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 26-05-2023 22:09:45 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 26-05-2023 22:09:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:09:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:09:46 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 26-05-2023 22:09:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 26-05-2023 22:09:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:09:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:09:47 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 26-05-2023 22:10:38 [main] [Log] - Loaded all properties files.
+[INFO ] 26-05-2023 22:10:38 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 26-05-2023 22:10:38 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:10:39 [main] [Log] - TestBase: beforeSuite
+[INFO ] 26-05-2023 22:10:40 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 26-05-2023 22:10:40 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 26-05-2023 22:10:46 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 26-05-2023 22:10:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:10:50 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:10:50 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:10:50 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 26-05-2023 22:10:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 26-05-2023 22:10:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 26-05-2023 22:10:51 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 26-05-2023 22:10:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 26-05-2023 22:10:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 26-05-2023 22:10:51 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 26-05-2023 22:10:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:10:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:10:52 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 26-05-2023 22:10:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 26-05-2023 22:10:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:10:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:10:53 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 26-05-2023 22:11:40 [main] [Log] - Loaded all properties files.
+[INFO ] 26-05-2023 22:11:40 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 26-05-2023 22:11:40 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:11:41 [main] [Log] - TestBase: beforeSuite
+[INFO ] 26-05-2023 22:11:42 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 26-05-2023 22:11:42 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 26-05-2023 22:11:48 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 26-05-2023 22:11:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:11:52 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:11:52 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:11:52 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 26-05-2023 22:11:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 26-05-2023 22:11:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 26-05-2023 22:11:53 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 26-05-2023 22:11:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 26-05-2023 22:11:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 26-05-2023 22:11:53 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 26-05-2023 22:11:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:11:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:11:54 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 26-05-2023 22:11:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 26-05-2023 22:11:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:11:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:11:55 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 26-05-2023 22:11:55 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - FAIL 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:11:56 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/build-your-own-computer
+[ERROR] 26-05-2023 22:11:56 [main] [Log] - FAILED !! Screenshot for test case: WishList_02
+[ERROR] 26-05-2023 22:11:56 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'bar-notification success']//p"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d68ef666bc6bd4efb080ae3603a5678, findElement {using=xpath, value=//div[@class = 'bar-notification success']//p}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52934}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52934/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d68ef666bc6bd4efb080ae3603a5678
+[INFO ] 26-05-2023 22:11:57 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:24:16 [main] [Log] - Loaded all properties files.
+[INFO ] 26-05-2023 22:24:16 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 26-05-2023 22:24:16 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:24:18 [main] [Log] - TestBase: beforeSuite
+[INFO ] 26-05-2023 22:24:19 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 26-05-2023 22:24:19 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 26-05-2023 22:24:27 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 26-05-2023 22:24:30 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:24:30 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:24:31 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:24:31 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 26-05-2023 22:24:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 26-05-2023 22:24:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 26-05-2023 22:24:31 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 26-05-2023 22:24:32 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 26-05-2023 22:24:32 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 26-05-2023 22:24:32 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 26-05-2023 22:24:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:24:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:24:33 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 26-05-2023 22:24:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 26-05-2023 22:24:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:24:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:24:34 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 26-05-2023 22:24:34 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - FAIL 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:24:35 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/build-your-own-computer
+[ERROR] 26-05-2023 22:24:35 [main] [Log] - FAILED !! Screenshot for test case: WishList_02
+[ERROR] 26-05-2023 22:24:35 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'bar-notification success']//p"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5aa0636f01bdd3806608e4dbe900f6a2, findElement {using=xpath, value=//div[@class = 'bar-notification success']//p}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53749}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53749/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5aa0636f01bdd3806608e4dbe900f6a2
+[INFO ] 26-05-2023 22:24:36 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:28:19 [main] [Log] - Loaded all properties files.
+[INFO ] 26-05-2023 22:28:19 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 26-05-2023 22:28:19 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:28:21 [main] [Log] - TestBase: beforeSuite
+[INFO ] 26-05-2023 22:28:22 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 26-05-2023 22:28:22 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 26-05-2023 22:28:29 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 26-05-2023 22:28:32 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:28:33 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:28:33 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:28:33 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 26-05-2023 22:28:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 26-05-2023 22:28:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 26-05-2023 22:28:34 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 26-05-2023 22:28:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 26-05-2023 22:28:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 26-05-2023 22:28:35 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 26-05-2023 22:28:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:28:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:28:36 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 26-05-2023 22:28:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 26-05-2023 22:28:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:28:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:28:37 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 26-05-2023 22:28:58 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - FAIL 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:29:00 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/build-your-own-computer
+[ERROR] 26-05-2023 22:29:00 [main] [Log] - FAILED !! Screenshot for test case: WishList_02
+[ERROR] 26-05-2023 22:29:02 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'bar-notification success']//p"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7d37a3d5b1b1743a9635a6b81bb13ca5, findElement {using=xpath, value=//div[@class = 'bar-notification success']//p}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54087}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54087/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d37a3d5b1b1743a9635a6b81bb13ca5
+[INFO ] 26-05-2023 22:29:03 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:31:53 [main] [Log] - Loaded all properties files.
+[INFO ] 26-05-2023 22:31:53 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 26-05-2023 22:31:53 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:31:54 [main] [Log] - TestBase: beforeSuite
+[INFO ] 26-05-2023 22:31:56 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 26-05-2023 22:31:56 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 26-05-2023 22:32:02 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 26-05-2023 22:32:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:32:06 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:32:06 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:32:06 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 26-05-2023 22:32:07 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 26-05-2023 22:32:07 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 26-05-2023 22:32:07 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 26-05-2023 22:32:08 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 26-05-2023 22:32:08 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 26-05-2023 22:32:08 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 26-05-2023 22:32:09 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:32:09 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:32:09 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 26-05-2023 22:32:09 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 26-05-2023 22:32:09 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:32:09 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:32:09 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 26-05-2023 22:32:15 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - FAIL 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:32:15 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/build-your-own-computer
+[ERROR] 26-05-2023 22:32:15 [main] [Log] - FAILED !! Screenshot for test case: WishList_02
+[ERROR] 26-05-2023 22:32:15 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'bar-notification success']//p"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1f4a275e41616f12cfe64763662d1ac, findElement {using=xpath, value=//div[@class = 'bar-notification success']//p}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54422}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54422/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d1f4a275e41616f12cfe64763662d1ac
+[INFO ] 26-05-2023 22:32:15 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:41:57 [main] [Log] - Loaded all properties files.
+[INFO ] 26-05-2023 22:41:57 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 26-05-2023 22:41:58 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:41:59 [main] [Log] - TestBase: beforeSuite
+[INFO ] 26-05-2023 22:42:00 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 26-05-2023 22:42:00 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 26-05-2023 22:42:06 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 26-05-2023 22:42:09 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:42:09 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:42:09 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:42:09 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 26-05-2023 22:42:09 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 26-05-2023 22:42:09 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 26-05-2023 22:42:09 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 26-05-2023 22:42:10 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 26-05-2023 22:42:10 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 26-05-2023 22:42:10 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 26-05-2023 22:42:11 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:42:11 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:42:11 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 26-05-2023 22:42:11 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 26-05-2023 22:42:11 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:42:11 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:42:11 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 26-05-2023 22:42:12 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@class = 'bar-notification success']//p : visible
+[INFO ] 26-05-2023 22:42:12 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - FAIL 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:42:13 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/build-your-own-computer
+[ERROR] 26-05-2023 22:42:13 [main] [Log] - FAILED !! Screenshot for test case: WishList_02
+[ERROR] 26-05-2023 22:42:13 [main] [Log] - java.lang.AssertionError: expected [The product has been added to your ] but found [The product has been added to your wishlist]
+[INFO ] 26-05-2023 22:42:13 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:45:24 [main] [Log] - Loaded all properties files.
+[INFO ] 26-05-2023 22:45:24 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 26-05-2023 22:45:24 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:45:25 [main] [Log] - TestBase: beforeSuite
+[INFO ] 26-05-2023 22:45:26 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 26-05-2023 22:45:26 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 26-05-2023 22:45:33 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 26-05-2023 22:45:35 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:45:35 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:45:35 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:45:35 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 26-05-2023 22:45:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 26-05-2023 22:45:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 26-05-2023 22:45:36 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 26-05-2023 22:45:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 26-05-2023 22:45:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 26-05-2023 22:45:37 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 26-05-2023 22:45:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:45:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:45:39 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 26-05-2023 22:45:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 26-05-2023 22:45:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:45:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:45:39 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 26-05-2023 22:45:40 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@class = 'bar-notification success']//p : visible
+[INFO ] 26-05-2023 22:45:40 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[@class = 'wishlist-label'] : visible
+[INFO ] 26-05-2023 22:45:41 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - FAIL 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:45:41 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/build-your-own-computer
+[ERROR] 26-05-2023 22:45:41 [main] [Log] - FAILED !! Screenshot for test case: WishList_02
+[ERROR] 26-05-2023 22:45:42 [main] [Log] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="wishlist-label">...</span> is not clickable at point (920, 22). Other element would receive the click: <p class="content">...</p>
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ba4434f8534456b32d572f780dc36134, clickElement {id=A2EB01AB96CD5C7BA21575B0B101FB0C_element_77}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55475}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55475/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ba4434f8534456b32d572f780dc36134)] -> xpath: //span[@class = 'wishlist-label']]
+Session ID: ba4434f8534456b32d572f780dc36134
+[INFO ] 26-05-2023 22:45:42 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:46:40 [main] [Log] - Loaded all properties files.
+[INFO ] 26-05-2023 22:46:40 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 26-05-2023 22:46:40 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:46:43 [main] [Log] - TestBase: beforeSuite
+[INFO ] 26-05-2023 22:46:44 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 26-05-2023 22:46:44 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 26-05-2023 22:46:49 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 26-05-2023 22:46:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:46:53 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:46:53 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:46:53 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 26-05-2023 22:46:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 26-05-2023 22:46:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 26-05-2023 22:46:53 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 26-05-2023 22:46:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 26-05-2023 22:46:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 26-05-2023 22:46:54 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 26-05-2023 22:46:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:46:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:46:55 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 26-05-2023 22:46:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 26-05-2023 22:46:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:46:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:46:55 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 26-05-2023 22:46:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@class = 'bar-notification success']//p : visible
+[INFO ] 26-05-2023 22:46:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[@class = 'wishlist-label'] : visible
+[INFO ] 26-05-2023 22:46:57 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - FAIL 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:46:58 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/build-your-own-computer
+[ERROR] 26-05-2023 22:46:58 [main] [Log] - FAILED !! Screenshot for test case: WishList_02
+[ERROR] 26-05-2023 22:46:58 [main] [Log] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="wishlist-label">...</span> is not clickable at point (920, 22). Other element would receive the click: <p class="content">...</p>
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [72c95cbbeee8f8d7f9f14521314a56ab, clickElement {id=21F8A8455B4539A607749734E9A02FA0_element_77}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55661}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55661/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (72c95cbbeee8f8d7f9f14521314a56ab)] -> xpath: //span[@class = 'wishlist-label']]
+Session ID: 72c95cbbeee8f8d7f9f14521314a56ab
+[INFO ] 26-05-2023 22:46:58 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:55:18 [main] [Log] - Loaded all properties files.
+[INFO ] 26-05-2023 22:55:18 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 26-05-2023 22:55:18 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:55:19 [main] [Log] - TestBase: beforeSuite
+[INFO ] 26-05-2023 22:55:21 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 26-05-2023 22:55:21 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 26-05-2023 22:55:28 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 26-05-2023 22:55:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:55:31 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:55:31 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:55:32 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 26-05-2023 22:55:32 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 26-05-2023 22:55:32 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 26-05-2023 22:55:32 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 26-05-2023 22:55:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 26-05-2023 22:55:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 26-05-2023 22:55:33 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 26-05-2023 22:55:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:55:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:55:35 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 26-05-2023 22:55:35 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 26-05-2023 22:55:35 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:55:35 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:55:35 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 26-05-2023 22:55:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@class = 'bar-notification success']//p : visible
+[INFO ] 26-05-2023 22:55:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()='Wishlist'] : visible
+[INFO ] 26-05-2023 22:55:42 [main] [Log] - waitForElementVisible: Element //div[@class = 'bar-notification success']//p : invisible
+[INFO ] 26-05-2023 22:55:42 [main] [Log] - waitForElementVisible: Element //div[@class = 'bar-notification success']//p : invisible
+[INFO ] 26-05-2023 22:55:42 [main] [Log] - waitForElementClickable: Element //div[@class = 'bar-notification success']//p : unclickable
+[INFO ] 26-05-2023 22:55:42 [main] [Log] - waitForElementClickable: Element //div[@class = 'bar-notification success']//p : unclickable
+[INFO ] 26-05-2023 22:55:42 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - FAIL 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:55:42 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/build-your-own-computer
+[ERROR] 26-05-2023 22:55:42 [main] [Log] - FAILED !! Screenshot for test case: WishList_02
+[ERROR] 26-05-2023 22:55:43 [main] [Log] - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94be184c36955399f58625eda76209b5, clickElement {id=B803037BD2B5BC2539AC8BACCF93B946_element_71}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56215}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56215/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (94be184c36955399f58625eda76209b5)] -> xpath: //div[@class = 'bar-notification success']//p]
+Session ID: 94be184c36955399f58625eda76209b5
+[INFO ] 26-05-2023 22:55:43 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:57:51 [main] [Log] - Loaded all properties files.
+[INFO ] 26-05-2023 22:57:51 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 26-05-2023 22:57:51 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:57:52 [main] [Log] - TestBase: beforeSuite
+[INFO ] 26-05-2023 22:57:54 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 26-05-2023 22:57:54 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 26-05-2023 22:58:02 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 26-05-2023 22:58:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:58:04 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:58:04 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 26-05-2023 22:58:04 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 26-05-2023 22:58:05 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 26-05-2023 22:58:05 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 26-05-2023 22:58:05 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 26-05-2023 22:58:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 26-05-2023 22:58:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 26-05-2023 22:58:06 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 26-05-2023 22:58:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:58:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 26-05-2023 22:58:07 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 26-05-2023 22:58:07 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 26-05-2023 22:58:07 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:58:07 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 26-05-2023 22:58:07 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 26-05-2023 22:58:08 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@class = 'bar-notification success']//p : visible
+[INFO ] 26-05-2023 22:58:13 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()='Wishlist'] : visible
+[INFO ] 26-05-2023 22:58:13 [main] [Log] - waitForElementVisible: Element //span[text()='Wishlist'] : visible
+[INFO ] 26-05-2023 22:58:13 [main] [Log] - waitForElementClickable: Element //span[text()='Wishlist'] : clickable
+[INFO ] 26-05-2023 22:58:14 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - PASS 
+---------------------------------------------------------------
+[INFO ] 26-05-2023 22:58:14 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------

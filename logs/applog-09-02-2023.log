@@ -1,0 +1,743 @@
+[INFO ] 09-02-2023 05:30:29 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 05:30:29 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 05:30:30 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:30:32 [main] [Log] - TestBase: beforeSuite
+[INFO ] 09-02-2023 05:30:36 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 05:30:37 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 05:30:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Username']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:30:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='username'] : visible
+[INFO ] 09-02-2023 05:30:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Username']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:30:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='password'] : visible
+[INFO ] 09-02-2023 05:30:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Password']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:30:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Login']] : visible
+[INFO ] 09-02-2023 05:30:58 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Login']] : clickable
+[INFO ] 09-02-2023 05:31:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Dashboard']] : visible
+[INFO ] 09-02-2023 05:31:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:31:02 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:31:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:31:04 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 09-02-2023 05:31:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:31:04 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:31:07 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:31:07 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:31:12 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:31:12 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:31:14 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:31:14 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_02
+[INFO ] 09-02-2023 05:31:14 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Configuration']] : visible
+[INFO ] 09-02-2023 05:31:14 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Configuration']] : clickable
+[INFO ] 09-02-2023 05:31:14 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Custom Fields']] : visible
+[INFO ] 09-02-2023 05:31:14 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Custom Fields']] : clickable
+[INFO ] 09-02-2023 05:31:16 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Custom Fields']] : visible
+[INFO ] 09-02-2023 05:31:17 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Add']] : visible
+[INFO ] 09-02-2023 05:31:17 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Add']] : clickable
+[INFO ] 09-02-2023 05:31:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Add Custom Field']] : visible
+[INFO ] 09-02-2023 05:31:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Field Name']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:31:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Screen']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:31:19 [main] [Log] - waitForElementClickable: Element //label[text()='Screen']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:31:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Contact Details']] : visible
+[INFO ] 09-02-2023 05:31:19 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Contact Details']] : clickable
+[INFO ] 09-02-2023 05:31:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Type']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:31:19 [main] [Log] - waitForElementClickable: Element //label[text()='Type']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:31:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Text or Number']] : visible
+[INFO ] 09-02-2023 05:31:19 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Text or Number']] : clickable
+[INFO ] 09-02-2023 05:31:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:31:19 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:31:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:31:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[text()[normalize-space()='FM01']] : visible
+[INFO ] 09-02-2023 05:31:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[(text()='FM01')]/ancestor::div[@role='row']/div[1] : visible
+[INFO ] 09-02-2023 05:31:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[(text()='FM01')]/ancestor::div[@role='row']/div[2] : visible
+[INFO ] 09-02-2023 05:31:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[(text()='FM01')]/ancestor::div[@role='row']/div[3] : visible
+[INFO ] 09-02-2023 05:31:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[(text()='FM01')]/ancestor::div[@role='row']/div[4] : visible
+[INFO ] 09-02-2023 05:31:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[(text()='FM01')]/ancestor::div[@role='row']/div[5] : visible
+[INFO ] 09-02-2023 05:31:25 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[text()='FM01']/following::i[contains(@class,'oxd-icon bi-trash')] : visible
+[INFO ] 09-02-2023 05:31:25 [main] [Log] - waitForElementClickable: Element //div[text()='FM01']/following::i[contains(@class,'oxd-icon bi-trash')] : clickable
+[INFO ] 09-02-2023 05:31:25 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Yes, Delete']] : visible
+[INFO ] 09-02-2023 05:31:25 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Yes, Delete']] : visible
+[INFO ] 09-02-2023 05:31:25 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Yes, Delete']] : clickable
+[INFO ] 09-02-2023 05:31:25 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:31:25 [main] [Log] - 
+TestListener: COMPLETED TC: TC_02 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:31:25 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:31:26 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:31:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:31:27 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_02
+[INFO ] 09-02-2023 05:31:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Configuration']] : visible
+[INFO ] 09-02-2023 05:31:27 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Configuration']] : clickable
+[INFO ] 09-02-2023 05:31:28 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Custom Fields']] : visible
+[INFO ] 09-02-2023 05:31:28 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Custom Fields']] : clickable
+[INFO ] 09-02-2023 05:31:30 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Custom Fields']] : visible
+[INFO ] 09-02-2023 05:31:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Add']] : visible
+[INFO ] 09-02-2023 05:31:31 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Add']] : clickable
+[INFO ] 09-02-2023 05:31:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Add Custom Field']] : visible
+[INFO ] 09-02-2023 05:31:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Field Name']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:31:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Screen']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:31:34 [main] [Log] - waitForElementClickable: Element //label[text()='Screen']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:31:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Emergency Contacts']] : visible
+[INFO ] 09-02-2023 05:31:34 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Emergency Contacts']] : clickable
+[INFO ] 09-02-2023 05:31:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Type']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:31:34 [main] [Log] - waitForElementClickable: Element //label[text()='Type']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:31:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Drop Down']] : visible
+[INFO ] 09-02-2023 05:31:34 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Drop Down']] : clickable
+[INFO ] 09-02-2023 05:31:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Select Options']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:31:35 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:31:35 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:31:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:31:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[text()[normalize-space()='FM02']] : visible
+[INFO ] 09-02-2023 05:31:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[(text()='FM02')]/ancestor::div[@role='row']/div[1] : visible
+[INFO ] 09-02-2023 05:31:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[(text()='FM02')]/ancestor::div[@role='row']/div[2] : visible
+[INFO ] 09-02-2023 05:31:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[(text()='FM02')]/ancestor::div[@role='row']/div[3] : visible
+[INFO ] 09-02-2023 05:31:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[(text()='FM02')]/ancestor::div[@role='row']/div[4] : visible
+[INFO ] 09-02-2023 05:31:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[(text()='FM02')]/ancestor::div[@role='row']/div[5] : visible
+[INFO ] 09-02-2023 05:31:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[text()='FM02']/following::i[contains(@class,'oxd-icon bi-trash')] : visible
+[INFO ] 09-02-2023 05:31:42 [main] [Log] - waitForElementClickable: Element //div[text()='FM02']/following::i[contains(@class,'oxd-icon bi-trash')] : clickable
+[INFO ] 09-02-2023 05:31:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Yes, Delete']] : visible
+[INFO ] 09-02-2023 05:31:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Yes, Delete']] : visible
+[INFO ] 09-02-2023 05:31:43 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Yes, Delete']] : clickable
+[INFO ] 09-02-2023 05:31:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:31:43 [main] [Log] - 
+TestListener: COMPLETED TC: TC_02 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:31:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:31:44 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:31:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:31:45 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_03
+[INFO ] 09-02-2023 05:31:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:31:46 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Add Employee']] : clickable
+[INFO ] 09-02-2023 05:31:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:31:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='firstName'] : visible
+[INFO ] 09-02-2023 05:31:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='lastName'] : visible
+[INFO ] 09-02-2023 05:31:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Employee Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:31:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:31:51 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:31:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:31:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Vincent01 VN']] : visible
+[INFO ] 09-02-2023 05:31:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //img[@class='employee-image'] : visible
+[INFO ] 09-02-2023 05:31:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:31:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:31:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:32:01 [main] [Log] - waitForElementClickable: Element //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:32:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Barbadian']] : visible
+[INFO ] 09-02-2023 05:32:01 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Barbadian']] : clickable
+[INFO ] 09-02-2023 05:32:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:32:01 [main] [Log] - waitForElementClickable: Element //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:32:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Single']] : visible
+[INFO ] 09-02-2023 05:32:01 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Single']] : clickable
+[INFO ] 09-02-2023 05:32:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Male']] : visible
+[INFO ] 09-02-2023 05:32:02 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Male']] : clickable
+[INFO ] 09-02-2023 05:32:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Military Service']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Yes']] : visible
+[INFO ] 09-02-2023 05:32:03 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Yes']] : clickable
+[INFO ] 09-02-2023 05:32:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:32:03 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:32:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:32:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:04 [main] [Log] - 
+TestListener: COMPLETED TC: TC_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:32:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:32:04 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:32:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:32:06 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_03
+[INFO ] 09-02-2023 05:32:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:32:06 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Add Employee']] : clickable
+[INFO ] 09-02-2023 05:32:08 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:32:08 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='firstName'] : visible
+[INFO ] 09-02-2023 05:32:08 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='lastName'] : visible
+[INFO ] 09-02-2023 05:32:09 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Employee Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:11 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:32:11 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:32:13 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:32:17 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Vincent02 VN']] : visible
+[INFO ] 09-02-2023 05:32:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //img[@class='employee-image'] : visible
+[INFO ] 09-02-2023 05:32:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:32:20 [main] [Log] - waitForElementClickable: Element //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:32:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Albanian']] : visible
+[INFO ] 09-02-2023 05:32:20 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Albanian']] : clickable
+[INFO ] 09-02-2023 05:32:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:32:20 [main] [Log] - waitForElementClickable: Element //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:32:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Married']] : visible
+[INFO ] 09-02-2023 05:32:20 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Married']] : clickable
+[INFO ] 09-02-2023 05:32:21 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:21 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Female']] : visible
+[INFO ] 09-02-2023 05:32:21 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Female']] : clickable
+[INFO ] 09-02-2023 05:32:21 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Military Service']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:22 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Yes']] : visible
+[INFO ] 09-02-2023 05:32:22 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Yes']] : clickable
+[INFO ] 09-02-2023 05:32:22 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:32:22 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:32:22 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:32:22 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:23 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:23 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:23 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:23 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:23 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:23 [main] [Log] - 
+TestListener: COMPLETED TC: TC_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:32:23 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:32:23 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:32:25 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:32:25 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_03
+[INFO ] 09-02-2023 05:32:25 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:32:25 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Add Employee']] : clickable
+[INFO ] 09-02-2023 05:32:26 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:32:26 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='firstName'] : visible
+[INFO ] 09-02-2023 05:32:26 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='lastName'] : visible
+[INFO ] 09-02-2023 05:32:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Employee Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:29 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:32:29 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:32:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:32:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Vincent03 VN']] : visible
+[INFO ] 09-02-2023 05:32:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //img[@class='employee-image'] : visible
+[INFO ] 09-02-2023 05:32:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:32:38 [main] [Log] - waitForElementClickable: Element //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:32:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Barbadian']] : visible
+[INFO ] 09-02-2023 05:32:38 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Barbadian']] : clickable
+[INFO ] 09-02-2023 05:32:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:32:38 [main] [Log] - waitForElementClickable: Element //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:32:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Other']] : visible
+[INFO ] 09-02-2023 05:32:39 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Other']] : clickable
+[INFO ] 09-02-2023 05:32:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Female']] : visible
+[INFO ] 09-02-2023 05:32:39 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Female']] : clickable
+[INFO ] 09-02-2023 05:32:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Military Service']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:40 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Yes']] : visible
+[INFO ] 09-02-2023 05:32:40 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Yes']] : clickable
+[INFO ] 09-02-2023 05:32:40 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:32:40 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:32:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:32:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:41 [main] [Log] - 
+TestListener: COMPLETED TC: TC_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:32:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:32:41 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:32:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:32:43 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_03
+[INFO ] 09-02-2023 05:32:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:32:43 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Add Employee']] : clickable
+[INFO ] 09-02-2023 05:32:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:32:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='firstName'] : visible
+[INFO ] 09-02-2023 05:32:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='lastName'] : visible
+[INFO ] 09-02-2023 05:32:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Employee Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:32:48 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:32:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:32:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Vincent04 VN']] : visible
+[INFO ] 09-02-2023 05:32:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //img[@class='employee-image'] : visible
+[INFO ] 09-02-2023 05:32:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:32:55 [main] [Log] - waitForElementClickable: Element //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:32:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Marshallese']] : visible
+[INFO ] 09-02-2023 05:32:55 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Marshallese']] : clickable
+[INFO ] 09-02-2023 05:32:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:32:56 [main] [Log] - waitForElementClickable: Element //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:32:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Single']] : visible
+[INFO ] 09-02-2023 05:32:56 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Single']] : clickable
+[INFO ] 09-02-2023 05:32:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Male']] : visible
+[INFO ] 09-02-2023 05:32:56 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Male']] : clickable
+[INFO ] 09-02-2023 05:32:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Military Service']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Yes']] : visible
+[INFO ] 09-02-2023 05:32:57 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Yes']] : clickable
+[INFO ] 09-02-2023 05:32:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:32:57 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:32:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:32:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:32:58 [main] [Log] - 
+TestListener: COMPLETED TC: TC_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:32:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:32:58 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:33:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:33:00 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_03
+[INFO ] 09-02-2023 05:33:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:33:00 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Add Employee']] : clickable
+[INFO ] 09-02-2023 05:33:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:33:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='firstName'] : visible
+[INFO ] 09-02-2023 05:33:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='lastName'] : visible
+[INFO ] 09-02-2023 05:33:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Employee Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:33:04 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:33:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:33:10 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Vincent05 VN']] : visible
+[INFO ] 09-02-2023 05:33:10 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //img[@class='employee-image'] : visible
+[INFO ] 09-02-2023 05:33:10 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:10 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:11 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:11 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:12 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:12 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:33:12 [main] [Log] - waitForElementClickable: Element //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:33:12 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Barbadian']] : visible
+[INFO ] 09-02-2023 05:33:12 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Barbadian']] : clickable
+[INFO ] 09-02-2023 05:33:12 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:33:12 [main] [Log] - waitForElementClickable: Element //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:33:12 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Other']] : visible
+[INFO ] 09-02-2023 05:33:12 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Other']] : clickable
+[INFO ] 09-02-2023 05:33:12 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:13 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Female']] : visible
+[INFO ] 09-02-2023 05:33:13 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Female']] : clickable
+[INFO ] 09-02-2023 05:33:13 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Military Service']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:13 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Yes']] : visible
+[INFO ] 09-02-2023 05:33:13 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Yes']] : clickable
+[INFO ] 09-02-2023 05:33:13 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:33:13 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:33:14 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:33:14 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:14 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:14 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:14 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:14 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:14 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:14 [main] [Log] - 
+TestListener: COMPLETED TC: TC_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:33:14 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:33:14 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:33:16 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:33:16 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_03
+[INFO ] 09-02-2023 05:33:16 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:33:16 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Add Employee']] : clickable
+[INFO ] 09-02-2023 05:33:17 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:33:17 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='firstName'] : visible
+[INFO ] 09-02-2023 05:33:17 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='lastName'] : visible
+[INFO ] 09-02-2023 05:33:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Employee Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:33:20 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:33:22 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:33:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Vincent06 VN']] : visible
+[INFO ] 09-02-2023 05:33:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //img[@class='employee-image'] : visible
+[INFO ] 09-02-2023 05:33:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:28 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:28 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:28 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:33:28 [main] [Log] - waitForElementClickable: Element //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:33:29 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Albanian']] : visible
+[INFO ] 09-02-2023 05:33:29 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Albanian']] : clickable
+[INFO ] 09-02-2023 05:33:29 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:33:29 [main] [Log] - waitForElementClickable: Element //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:33:29 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Single']] : visible
+[INFO ] 09-02-2023 05:33:29 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Single']] : clickable
+[INFO ] 09-02-2023 05:33:29 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:29 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Female']] : visible
+[INFO ] 09-02-2023 05:33:29 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Female']] : clickable
+[INFO ] 09-02-2023 05:33:29 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Military Service']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:30 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Yes']] : visible
+[INFO ] 09-02-2023 05:33:30 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Yes']] : clickable
+[INFO ] 09-02-2023 05:33:30 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:33:30 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:33:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:33:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:31 [main] [Log] - 
+TestListener: COMPLETED TC: TC_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:33:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:33:31 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:33:32 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:33:32 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_03
+[INFO ] 09-02-2023 05:33:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:33:33 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Add Employee']] : clickable
+[INFO ] 09-02-2023 05:33:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:33:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='firstName'] : visible
+[INFO ] 09-02-2023 05:33:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='lastName'] : visible
+[INFO ] 09-02-2023 05:33:35 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Employee Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:33:37 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:33:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:33:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Vincent07 VN']] : visible
+[INFO ] 09-02-2023 05:33:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //img[@class='employee-image'] : visible
+[INFO ] 09-02-2023 05:33:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:33:46 [main] [Log] - waitForElementClickable: Element //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:33:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Barbadian']] : visible
+[INFO ] 09-02-2023 05:33:46 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Barbadian']] : clickable
+[INFO ] 09-02-2023 05:33:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:33:46 [main] [Log] - waitForElementClickable: Element //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:33:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Married']] : visible
+[INFO ] 09-02-2023 05:33:46 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Married']] : clickable
+[INFO ] 09-02-2023 05:33:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Male']] : visible
+[INFO ] 09-02-2023 05:33:46 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Male']] : clickable
+[INFO ] 09-02-2023 05:33:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Military Service']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Yes']] : visible
+[INFO ] 09-02-2023 05:33:47 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Yes']] : clickable
+[INFO ] 09-02-2023 05:33:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:33:47 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:33:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:33:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:48 [main] [Log] - 
+TestListener: COMPLETED TC: TC_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:33:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:33:48 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:33:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:33:50 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_03
+[INFO ] 09-02-2023 05:33:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:33:50 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Add Employee']] : clickable
+[INFO ] 09-02-2023 05:33:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:33:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='firstName'] : visible
+[INFO ] 09-02-2023 05:33:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='lastName'] : visible
+[INFO ] 09-02-2023 05:33:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Employee Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:33:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:33:54 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:33:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:34:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Vincent08 VN']] : visible
+[INFO ] 09-02-2023 05:34:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //img[@class='employee-image'] : visible
+[INFO ] 09-02-2023 05:34:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:34:02 [main] [Log] - waitForElementClickable: Element //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:34:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Marshallese']] : visible
+[INFO ] 09-02-2023 05:34:02 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Marshallese']] : clickable
+[INFO ] 09-02-2023 05:34:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:34:02 [main] [Log] - waitForElementClickable: Element //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:34:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Other']] : visible
+[INFO ] 09-02-2023 05:34:02 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Other']] : clickable
+[INFO ] 09-02-2023 05:34:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Female']] : visible
+[INFO ] 09-02-2023 05:34:03 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Female']] : clickable
+[INFO ] 09-02-2023 05:34:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Military Service']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Yes']] : visible
+[INFO ] 09-02-2023 05:34:03 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Yes']] : clickable
+[INFO ] 09-02-2023 05:34:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:34:03 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:34:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:34:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:04 [main] [Log] - 
+TestListener: COMPLETED TC: TC_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:34:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:34:04 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:34:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:34:06 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_03
+[INFO ] 09-02-2023 05:34:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:34:06 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Add Employee']] : clickable
+[INFO ] 09-02-2023 05:34:07 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:34:07 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='firstName'] : visible
+[INFO ] 09-02-2023 05:34:07 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='lastName'] : visible
+[INFO ] 09-02-2023 05:34:08 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Employee Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:10 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:34:10 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:34:12 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:34:17 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Vincent09 VN']] : visible
+[INFO ] 09-02-2023 05:34:17 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //img[@class='employee-image'] : visible
+[INFO ] 09-02-2023 05:34:17 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:17 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:17 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:34:18 [main] [Log] - waitForElementClickable: Element //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:34:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Barbadian']] : visible
+[INFO ] 09-02-2023 05:34:19 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Barbadian']] : clickable
+[INFO ] 09-02-2023 05:34:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:34:19 [main] [Log] - waitForElementClickable: Element //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:34:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Single']] : visible
+[INFO ] 09-02-2023 05:34:19 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Single']] : clickable
+[INFO ] 09-02-2023 05:34:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Female']] : visible
+[INFO ] 09-02-2023 05:34:19 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Female']] : clickable
+[INFO ] 09-02-2023 05:34:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Military Service']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Yes']] : visible
+[INFO ] 09-02-2023 05:34:20 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Yes']] : clickable
+[INFO ] 09-02-2023 05:34:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:34:20 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:34:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:34:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:21 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:21 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:21 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:21 [main] [Log] - 
+TestListener: COMPLETED TC: TC_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:34:21 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:34:21 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:34:22 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:34:22 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_03
+[INFO ] 09-02-2023 05:34:22 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:34:22 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Add Employee']] : clickable
+[INFO ] 09-02-2023 05:34:23 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Add Employee']] : visible
+[INFO ] 09-02-2023 05:34:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='firstName'] : visible
+[INFO ] 09-02-2023 05:34:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='lastName'] : visible
+[INFO ] 09-02-2023 05:34:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Employee Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:34:27 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:34:29 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:34:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Vincent10 VN']] : visible
+[INFO ] 09-02-2023 05:34:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //img[@class='employee-image'] : visible
+[INFO ] 09-02-2023 05:34:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:35 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:35 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:35 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:34:35 [main] [Log] - waitForElementClickable: Element //label[text()='Nationality']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:34:35 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Albanian']] : visible
+[INFO ] 09-02-2023 05:34:35 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Albanian']] : clickable
+[INFO ] 09-02-2023 05:34:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:34:36 [main] [Log] - waitForElementClickable: Element //label[text()='Marital Status']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:34:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Other']] : visible
+[INFO ] 09-02-2023 05:34:36 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Other']] : clickable
+[INFO ] 09-02-2023 05:34:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Male']] : visible
+[INFO ] 09-02-2023 05:34:36 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Male']] : clickable
+[INFO ] 09-02-2023 05:34:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Military Service']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()[normalize-space()='Yes']] : visible
+[INFO ] 09-02-2023 05:34:37 [main] [Log] - waitForElementClickable: Element //label[text()[normalize-space()='Yes']] : clickable
+[INFO ] 09-02-2023 05:34:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:34:37 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:34:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:34:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='License Expiry Date']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SSN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='SIN Number']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Date of Birth']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:38 [main] [Log] - 
+TestListener: COMPLETED TC: TC_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:34:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:34:38 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:34:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:34:39 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_04
+[INFO ] 09-02-2023 05:34:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Employee List']] : visible
+[INFO ] 09-02-2023 05:34:39 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Employee List']] : clickable
+[INFO ] 09-02-2023 05:34:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h5[text()[normalize-space()='Employee Information']] : visible
+[INFO ] 09-02-2023 05:34:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Employee Name']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Search']] : visible
+[INFO ] 09-02-2023 05:34:41 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Search']] : clickable
+[INFO ] 09-02-2023 05:34:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[text()='First (& Middle) Name']/preceding::div[contains (@class,' oxd-padding-cell')] : visible
+[INFO ] 09-02-2023 05:34:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][2]/div[3]/div : visible
+[INFO ] 09-02-2023 05:34:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][2]/div[4]/div : visible
+[INFO ] 09-02-2023 05:34:42 [main] [Log] - 
+TestListener: COMPLETED TC: TC_04 - FAIL 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:34:42 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+[ERROR] 09-02-2023 05:34:42 [main] [Log] - FAILED !! Screenshot for test case: TC_04
+[ERROR] 09-02-2023 05:34:43 [main] [Log] - java.lang.AssertionError: verify cellData contain key search expected [true] but found [false]
+[INFO ] 09-02-2023 05:34:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:34:43 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:34:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:34:44 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_05
+[INFO ] 09-02-2023 05:34:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Reports']] : visible
+[INFO ] 09-02-2023 05:34:45 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Reports']] : clickable
+[INFO ] 09-02-2023 05:34:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h5[text()[normalize-space()='Employee Reports']] : visible
+[INFO ] 09-02-2023 05:34:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Add']] : visible
+[INFO ] 09-02-2023 05:34:46 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Add']] : clickable
+[INFO ] 09-02-2023 05:34:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Report Name']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Selection Criteria']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:34:49 [main] [Log] - waitForElementClickable: Element //label[text()='Selection Criteria']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:34:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Education']] : visible
+[INFO ] 09-02-2023 05:34:49 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Education']] : clickable
+[INFO ] 09-02-2023 05:34:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Select Display Field Group']/ancestor::div[contains(@class,'oxd-input-group ')] : visible
+[INFO ] 09-02-2023 05:34:49 [main] [Log] - waitForElementClickable: Element //label[text()='Select Display Field Group']/ancestor::div[contains(@class,'oxd-input-group ')] : clickable
+[INFO ] 09-02-2023 05:34:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Personal']] : visible
+[INFO ] 09-02-2023 05:34:49 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Personal']] : clickable
+[INFO ] 09-02-2023 05:34:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Select Display Field']/following::i[contains(@class,'oxd-icon bi-plus')] : visible
+[INFO ] 09-02-2023 05:34:49 [main] [Log] - waitForElementClickable: Element //label[text()='Select Display Field']/following::i[contains(@class,'oxd-icon bi-plus')] : clickable
+[INFO ] 09-02-2023 05:34:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:34:49 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:34:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:34:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Report_HRM_01']] : visible
+[INFO ] 09-02-2023 05:34:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Reports']] : visible
+[INFO ] 09-02-2023 05:34:53 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Reports']] : clickable
+[INFO ] 09-02-2023 05:34:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h5[text()[normalize-space()='Employee Reports']] : visible
+[INFO ] 09-02-2023 05:34:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Report Name']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:34:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='Report_HRM_01']] : visible
+[INFO ] 09-02-2023 05:34:57 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='Report_HRM_01']] : clickable
+[INFO ] 09-02-2023 05:34:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Search']] : visible
+[INFO ] 09-02-2023 05:34:57 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Search']] : clickable
+[INFO ] 09-02-2023 05:34:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[text()='Name']/preceding::div[contains (@class,' oxd-padding-cell')] : visible
+[INFO ] 09-02-2023 05:34:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][2]/div[2]/div : visible
+[INFO ] 09-02-2023 05:34:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[text()='Report_HRM_01']/following::i[contains(@class,'oxd-icon bi-pencil-fill')] : visible
+[INFO ] 09-02-2023 05:34:57 [main] [Log] - waitForElementClickable: Element //div[text()='Report_HRM_01']/following::i[contains(@class,'oxd-icon bi-pencil-fill')] : clickable
+[INFO ] 09-02-2023 05:34:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Edit Report']] : visible
+[INFO ] 09-02-2023 05:34:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()='Include Header']/following::span : visible
+[INFO ] 09-02-2023 05:34:59 [main] [Log] - waitForElementClickable: Element //p[text()='Include Header']/following::span : clickable
+[INFO ] 09-02-2023 05:35:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Save']] : visible
+[INFO ] 09-02-2023 05:35:00 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Save']] : clickable
+[INFO ] 09-02-2023 05:35:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:35:00 [main] [Log] - 
+TestListener: COMPLETED TC: TC_05 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:35:00 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:39:33 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 05:39:33 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 05:39:33 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:39:34 [main] [Log] - TestBase: beforeSuite
+[INFO ] 09-02-2023 05:39:37 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 05:39:37 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 05:39:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Username']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:39:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='username'] : visible
+[INFO ] 09-02-2023 05:39:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Username']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:39:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='password'] : visible
+[INFO ] 09-02-2023 05:39:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Password']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:39:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Login']] : visible
+[INFO ] 09-02-2023 05:39:54 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Login']] : clickable
+[INFO ] 09-02-2023 05:39:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='Dashboard']] : visible
+[INFO ] 09-02-2023 05:39:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:39:56 [main] [Log] - waitForElementClickable: Element //span[text()[normalize-space()='PIM']] : clickable
+[INFO ] 09-02-2023 05:39:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h6[text()[normalize-space()='PIM']] : visible
+[INFO ] 09-02-2023 05:39:58 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_04
+[INFO ] 09-02-2023 05:39:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Employee List']] : visible
+[INFO ] 09-02-2023 05:39:58 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Employee List']] : clickable
+[INFO ] 09-02-2023 05:40:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h5[text()[normalize-space()='Employee Information']] : visible
+[INFO ] 09-02-2023 05:40:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Employee Name']/../following-sibling::div//input : visible
+[INFO ] 09-02-2023 05:40:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Search']] : visible
+[INFO ] 09-02-2023 05:40:00 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Search']] : clickable
+[INFO ] 09-02-2023 05:40:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[text()='First (& Middle) Name']/preceding::div[contains (@class,' oxd-padding-cell')] : visible
+[INFO ] 09-02-2023 05:40:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][2]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][2]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][2]/div[4]/div : visible
+[INFO ] 09-02-2023 05:40:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][3]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][3]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][3]/div[4]/div : visible
+[INFO ] 09-02-2023 05:40:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][4]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][4]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][4]/div[4]/div : visible
+[INFO ] 09-02-2023 05:40:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][5]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][5]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][5]/div[4]/div : visible
+[INFO ] 09-02-2023 05:40:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][6]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][6]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][6]/div[4]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][7]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][7]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][7]/div[4]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][8]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][8]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][8]/div[4]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][9]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][9]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][9]/div[4]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][10]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][10]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][10]/div[4]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][11]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][11]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][11]/div[4]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][12]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][12]/div[3]/div : visible
+[INFO ] 09-02-2023 05:40:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@role='table']/descendant::div[@role='row'][12]/div[4]/div : visible
+[INFO ] 09-02-2023 05:40:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[text()='Id']/preceding::div[contains (@class,'oxd-padding-cell')]//span : visible
+[INFO ] 09-02-2023 05:40:03 [main] [Log] - waitForElementClickable: Element //div[text()='Id']/preceding::div[contains (@class,'oxd-padding-cell')]//span : clickable
+[INFO ] 09-02-2023 05:40:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Delete Selected']] : visible
+[INFO ] 09-02-2023 05:40:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Delete Selected']] : visible
+[INFO ] 09-02-2023 05:40:03 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Delete Selected']] : clickable
+[INFO ] 09-02-2023 05:40:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Yes, Delete']] : visible
+[INFO ] 09-02-2023 05:40:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()[normalize-space()='Yes, Delete']] : visible
+[INFO ] 09-02-2023 05:40:03 [main] [Log] - waitForElementClickable: Element //button[text()[normalize-space()='Yes, Delete']] : clickable
+[INFO ] 09-02-2023 05:40:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[text()[normalize-space()='Success']] : visible
+[INFO ] 09-02-2023 05:40:04 [main] [Log] - 
+TestListener: COMPLETED TC: TC_04 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 05:40:04 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------

@@ -1,0 +1,730 @@
+[INFO ] 30-01-2023 10:16:57 [main] [Log] - E:\Vincent\workspace\testek\training_project\Selenium\selenium-final-project\src\test\resources\config\config.properties (The system cannot find the path specified)
+[INFO ] 30-01-2023 10:16:57 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 10:18:56 [main] [Log] - E:\Vincent\workspace\testek\training_project\Selenium\selenium-final-project\src\test\resources\config\config.properties (The system cannot find the path specified)
+[INFO ] 30-01-2023 10:18:56 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 10:21:34 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 10:21:34 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 10:21:35 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 10:21:35 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 10:21:35 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - FAIL 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 10:21:35 [main] [Log] - captureScreenshot: Create folder: E:\Vincent\workspace\testek\training_project\Selenium\selenium-final-project\ExportData\Images
+[ERROR] 30-01-2023 10:21:35 [main] [Log] - FAILED !! Screenshot for test case: SMECould_Login_ValidAccount_001
+[ERROR] 30-01-2023 10:21:35 [main] [Log] - org.testng.TestNGException: 
+Method public void testscript.amisaccounting.projects.demo.nopcommerce.LoginTest.SMECould_Login_ValidAccount_001(java.util.Hashtable) requires a @DataProvider named : SMECould_Login_ValidAccount_001 in class dataprovider.amisaccounting.projects.demo.nopcommerce.DataProviderManager
+[INFO ] 30-01-2023 10:21:36 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 10:23:00 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 10:23:00 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 10:23:00 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 10:23:00 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 10:23:01 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - FAIL 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 10:23:01 [main] [Log] - captureScreenshot: Create folder: E:\Vincent\workspace\testek\training_project\Selenium\selenium-final-project\ExportData\Images
+[ERROR] 30-01-2023 10:23:01 [main] [Log] - FAILED !! Screenshot for test case: SMECould_Login_ValidAccount_001
+[ERROR] 30-01-2023 10:23:01 [main] [Log] - org.testng.TestNGException: 
+Method public void testscript.amisaccounting.projects.demo.nopcommerce.LoginTest.SMECould_Login_ValidAccount_001(java.util.Hashtable) requires a @DataProvider named : SMECould_Login_ValidAccount_001 in class dataprovider.amisaccounting.projects.demo.nopcommerce.DataProviderManager
+[INFO ] 30-01-2023 10:23:01 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 10:23:52 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 10:23:52 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 10:23:52 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 10:23:53 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 10:23:53 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - FAIL 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 10:23:54 [main] [Log] - captureScreenshot: Create folder: E:\Vincent\workspace\testek\training_project\Selenium\selenium-final-project\ExportData\Images
+[ERROR] 30-01-2023 10:23:54 [main] [Log] - FAILED !! Screenshot for test case: SMECould_Login_ValidAccount_001
+[ERROR] 30-01-2023 10:23:54 [main] [Log] - org.testng.internal.reflect.MethodMatcherException: 
+[public void testscript.amisaccounting.projects.demo.nopcommerce.LoginTest.SMECould_Login_ValidAccount_001(java.util.Hashtable)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: SMECould_Login_ValidAccount_001([Parameter{index=0, type=java.util.Hashtable, declaredAnnotations=[]}])
+Arguments: [(models.amisaccounting.projects.demo.nopcommerce.LoginModel) LoginModel(username=test, password=test_pass)]
+[INFO ] 30-01-2023 10:23:54 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:08:10 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 11:08:10 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 11:08:10 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:08:11 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 11:08:11 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - FAIL 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:08:11 [main] [Log] - captureScreenshot: Create folder: E:\Vincent\workspace\testek\training_project\Selenium\selenium-final-project\ExportData\Images
+[ERROR] 30-01-2023 11:08:11 [main] [Log] - FAILED !! Screenshot for test case: SMECould_Login_ValidAccount_001
+[ERROR] 30-01-2023 11:08:11 [main] [Log] - org.testng.internal.reflect.MethodMatcherException: 
+[public void testscript.amisaccounting.projects.demo.nopcommerce.LoginTest.SMECould_Login_ValidAccount_001(java.util.Hashtable)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: SMECould_Login_ValidAccount_001([Parameter{index=0, type=java.util.Hashtable, declaredAnnotations=[]}])
+Arguments: [(models.amisaccounting.projects.demo.nopcommerce.LoginModel) LoginModel(username=test, password=test_pass)]
+[INFO ] 30-01-2023 11:08:12 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:09:56 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 11:09:56 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 11:09:56 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:09:57 [main] [Log] - TestBase: beforeSuite
+[ERROR] 30-01-2023 11:09:58 [main] [Log] - java.lang.IllegalStateException: The driver executable must exist: E:\Vincent\workspace\testek\training_project\Selenium\selenium-final-project\src\test\resources\webDriver\chromedriver.exe
+[INFO ] 30-01-2023 11:09:58 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:09:58 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - SKIP 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:09:58 [main] [Log] - captureScreenshot: Create folder: E:\Vincent\workspace\testek\training_project\Selenium\selenium-final-project\ExportData\Images
+[ERROR] 30-01-2023 11:09:58 [main] [Log] - java.lang.IllegalStateException: The driver executable must exist: E:\Vincent\workspace\testek\training_project\Selenium\selenium-final-project\src\test\resources\webDriver\chromedriver.exe
+[INFO ] 30-01-2023 11:09:58 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:09:58 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - SKIP 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:09:58 [main] [Log] - captureScreenshot: Create folder: E:\Vincent\workspace\testek\training_project\Selenium\selenium-final-project\ExportData\Images
+[INFO ] 30-01-2023 11:09:59 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:11:23 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 11:11:23 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 11:11:23 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:11:24 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 11:11:25 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 11:11:25 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 30-01-2023 11:11:31 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:11:41 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - FAIL 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:11:41 [main] [Log] - captureScreenshot: Create folder: E:\Vincent\workspace\testek\training_project\Selenium\selenium-final-project\ExportData\Images
+[INFO ] 30-01-2023 11:11:41 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[ERROR] 30-01-2023 11:11:41 [main] [Log] - FAILED !! Screenshot for test case: SMECould_Login_ValidAccount_001
+[ERROR] 30-01-2023 11:11:41 [main] [Log] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[@class='login-with-email'] (tried for 10 second(s) with 100 milliseconds interval)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'BKHUYEN-THIN', ip: '10.1.37.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: com.sun.proxy.$Proxy39
+[INFO ] 30-01-2023 11:11:42 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 11:11:42 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 30-01-2023 11:11:44 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:11:54 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - FAIL 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:11:54 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[ERROR] 30-01-2023 11:11:54 [main] [Log] - FAILED !! Screenshot for test case: SMECould_Login_ValidAccount_001
+[ERROR] 30-01-2023 11:11:54 [main] [Log] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[@class='login-with-email'] (tried for 10 second(s) with 100 milliseconds interval)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'BKHUYEN-THIN', ip: '10.1.37.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: com.sun.proxy.$Proxy39
+[INFO ] 30-01-2023 11:11:55 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:14:47 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 11:14:47 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 11:14:47 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:14:47 [main] [Log] - TestBase: beforeSuite
+[ERROR] 30-01-2023 11:14:48 [main] [Log] - java.lang.IllegalArgumentException: Input must be set
+[INFO ] 30-01-2023 11:14:48 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:14:48 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - SKIP 
+---------------------------------------------------------------
+[ERROR] 30-01-2023 11:14:48 [main] [Log] - java.lang.IllegalArgumentException: Input must be set
+[INFO ] 30-01-2023 11:14:48 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:14:48 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - SKIP 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:14:48 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:25:56 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 11:25:56 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 11:25:56 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:25:58 [main] [Log] - TestBase: beforeSuite
+[ERROR] 30-01-2023 11:25:59 [main] [Log] - java.lang.NullPointerException
+[INFO ] 30-01-2023 11:25:59 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:25:59 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - SKIP 
+---------------------------------------------------------------
+[ERROR] 30-01-2023 11:26:00 [main] [Log] - java.lang.NullPointerException
+[INFO ] 30-01-2023 11:26:00 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:26:00 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - SKIP 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:26:00 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:34:21 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 11:34:21 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 11:34:21 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:34:22 [main] [Log] - TestBase: beforeSuite
+[ERROR] 30-01-2023 11:34:23 [main] [Log] - java.lang.NullPointerException
+[INFO ] 30-01-2023 11:34:23 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:34:23 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - SKIP 
+---------------------------------------------------------------
+[ERROR] 30-01-2023 11:34:23 [main] [Log] - java.lang.NullPointerException
+[INFO ] 30-01-2023 11:34:23 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:34:23 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - SKIP 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:34:23 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:36:45 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 11:36:45 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 11:37:13 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:37:20 [main] [Log] - TestBase: beforeSuite
+[ERROR] 30-01-2023 11:44:08 [main] [Log] - java.lang.NullPointerException
+[INFO ] 30-01-2023 11:44:08 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:44:08 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - SKIP 
+---------------------------------------------------------------
+[ERROR] 30-01-2023 11:44:08 [main] [Log] - java.lang.NullPointerException
+[INFO ] 30-01-2023 11:44:08 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:44:08 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - SKIP 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:44:08 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:46:40 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 11:46:40 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 11:46:40 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:46:44 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 11:48:32 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 11:48:32 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 11:48:32 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:48:33 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 11:48:34 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 11:48:34 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[ERROR] 30-01-2023 11:48:50 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Tui']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'BKHUYEN-THIN', ip: '10.1.37.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17b72cac44c9aa99629608251beba498, findElement {using=xpath, value=//span[text()='Tui']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\BGDUY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53179}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53179/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17b72cac44c9aa99629608251beba498
+[INFO ] 30-01-2023 11:48:50 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:48:50 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - SKIP 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:48:51 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://tiki.vn/
+[INFO ] 30-01-2023 11:48:55 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 11:48:55 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[ERROR] 30-01-2023 11:49:53 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Tui']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'BKHUYEN-THIN', ip: '10.1.37.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [edff97d4a4feb4454992da819afe5d56, findElement {using=xpath, value=//span[text()='Tui']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\BGDUY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64928}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64928/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: edff97d4a4feb4454992da819afe5d56
+[INFO ] 30-01-2023 11:49:53 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:49:53 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - SKIP 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:49:53 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://tiki.vn/
+[INFO ] 30-01-2023 11:49:54 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:54:41 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 11:54:41 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 11:54:42 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:54:42 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 11:54:43 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 11:54:43 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[ERROR] 30-01-2023 11:54:55 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Tui']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'BKHUYEN-THIN', ip: '10.1.37.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84acf179689c9d646b0f0d4efd41bf6a, findElement {using=xpath, value=//span[text()='Tui']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\BGDUY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61548/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 84acf179689c9d646b0f0d4efd41bf6a
+[INFO ] 30-01-2023 11:54:56 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:54:56 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - SKIP 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:54:57 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://tiki.vn/
+[INFO ] 30-01-2023 11:54:58 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 11:54:58 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[ERROR] 30-01-2023 11:55:04 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Tui']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'BKHUYEN-THIN', ip: '10.1.37.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6725d12fa98ce16cc2694433fc788db3, findElement {using=xpath, value=//span[text()='Tui']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\BGDUY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61639}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61639/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6725d12fa98ce16cc2694433fc788db3
+[INFO ] 30-01-2023 11:55:04 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:55:04 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - SKIP 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:55:05 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://tiki.vn/
+[INFO ] 30-01-2023 11:55:06 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:56:09 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 11:56:09 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 11:56:09 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:56:10 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 11:56:11 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 11:56:11 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 30-01-2023 11:56:21 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:56:21 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - FAIL 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:56:22 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://tiki.vn/
+[ERROR] 30-01-2023 11:56:22 [main] [Log] - FAILED !! Screenshot for test case: SMECould_Login_ValidAccount_001
+[ERROR] 30-01-2023 11:56:22 [main] [Log] - java.lang.NullPointerException
+[INFO ] 30-01-2023 11:56:23 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 11:56:23 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 30-01-2023 11:56:30 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:56:30 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - FAIL 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:56:31 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://tiki.vn/
+[ERROR] 30-01-2023 11:56:31 [main] [Log] - FAILED !! Screenshot for test case: SMECould_Login_ValidAccount_001
+[ERROR] 30-01-2023 11:56:31 [main] [Log] - java.lang.NullPointerException
+[INFO ] 30-01-2023 11:56:33 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:57:14 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 11:57:14 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 11:57:14 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:57:15 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 11:57:16 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 11:57:16 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 30-01-2023 11:58:43 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 11:58:43 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 11:58:43 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:58:44 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 11:58:45 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 11:58:45 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 30-01-2023 11:58:55 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:58:57 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - FAIL 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:58:58 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://tiki.vn/
+[ERROR] 30-01-2023 11:58:58 [main] [Log] - FAILED !! Screenshot for test case: SMECould_Login_ValidAccount_001
+[ERROR] 30-01-2023 11:58:58 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Tui']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'BKHUYEN-THIN', ip: '10.1.37.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [27fb154bfcf05af58aa678492101e235, findElement {using=xpath, value=//span[text()='Tui']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\BGDUY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60589/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27fb154bfcf05af58aa678492101e235
+[INFO ] 30-01-2023 11:58:59 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 11:58:59 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 30-01-2023 11:59:11 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 11:59:12 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - FAIL 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 11:59:12 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://tiki.vn/
+[ERROR] 30-01-2023 11:59:12 [main] [Log] - FAILED !! Screenshot for test case: SMECould_Login_ValidAccount_001
+[ERROR] 30-01-2023 11:59:12 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Tui']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'BKHUYEN-THIN', ip: '10.1.37.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1350b001d8cc552e5ea20435e0622fe, findElement {using=xpath, value=//span[text()='Tui']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\BGDUY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60672/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c1350b001d8cc552e5ea20435e0622fe
+[INFO ] 30-01-2023 11:59:13 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 12:00:09 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 12:00:09 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 12:00:09 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 12:00:09 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 12:00:10 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 12:00:10 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 30-01-2023 12:00:20 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 12:00:22 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 12:00:23 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 12:00:23 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 30-01-2023 12:00:29 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 12:00:32 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 12:00:33 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 13:41:48 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 13:41:48 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 13:41:48 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 13:41:50 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 13:41:51 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 13:41:51 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 30-01-2023 13:42:16 [main] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 30-01-2023 13:42:21 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 13:42:29 [main] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 30-01-2023 13:42:29 [main] [Log] - waitForElementClickable: Element //button[text()='Đăng nhập'] : clickable
+[INFO ] 30-01-2023 13:42:29 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 13:42:30 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 13:42:30 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 30-01-2023 13:42:53 [main] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 30-01-2023 13:42:53 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 13:42:55 [main] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 30-01-2023 13:42:55 [main] [Log] - waitForElementClickable: Element //button[text()='Đăng nhập'] : clickable
+[INFO ] 30-01-2023 13:42:55 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 13:42:57 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 13:47:17 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 13:47:18 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 13:47:18 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 13:47:21 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 13:47:22 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 13:47:23 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 30-01-2023 13:47:38 [main] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 30-01-2023 13:47:39 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 13:47:39 [main] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 30-01-2023 13:47:58 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - FAIL 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 13:47:59 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://tiki.vn/
+[ERROR] 30-01-2023 13:47:59 [main] [Log] - FAILED !! Screenshot for test case: SMECould_Login_ValidAccount_001
+[ERROR] 30-01-2023 13:47:59 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='login-with-email']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'BKHUYEN-THIN', ip: '10.1.37.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63b6844844c29c6d0af9860fdba855a5, findElement {using=xpath, value=//p[@class='login-with-email']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\BGDUY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58639}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58639/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63b6844844c29c6d0af9860fdba855a5
+[INFO ] 30-01-2023 13:48:17 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 13:48:17 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 30-01-2023 13:48:33 [main] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 30-01-2023 13:48:34 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 13:48:34 [main] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 30-01-2023 13:49:14 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - FAIL 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 13:49:15 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://tiki.vn/
+[ERROR] 30-01-2023 13:49:15 [main] [Log] - FAILED !! Screenshot for test case: SMECould_Login_ValidAccount_001
+[ERROR] 30-01-2023 13:49:16 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='login-with-email']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'BKHUYEN-THIN', ip: '10.1.37.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2859fa541f849d77ee9f386ac4d1c7b4, findElement {using=xpath, value=//p[@class='login-with-email']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\BGDUY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51424}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51424/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2859fa541f849d77ee9f386ac4d1c7b4
+[INFO ] 30-01-2023 13:49:28 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 13:57:58 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 13:57:58 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 13:57:58 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 13:57:58 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 13:57:59 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 13:57:59 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 30-01-2023 13:58:10 [main] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 30-01-2023 13:58:11 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 13:58:11 [main] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 30-01-2023 13:58:12 [main] [Log] - waitForElementClickable: Element //button[text()='Đăng nhập'] : clickable
+[INFO ] 30-01-2023 13:58:12 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 13:58:13 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 13:58:13 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\BGDUY\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 30-01-2023 13:58:21 [main] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 30-01-2023 13:58:21 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 13:58:21 [main] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 30-01-2023 13:58:22 [main] [Log] - waitForElementClickable: Element //button[text()='Đăng nhập'] : clickable
+[INFO ] 30-01-2023 13:58:22 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 13:58:22 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 16:45:36 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 16:45:36 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 16:45:36 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 30-01-2023 16:45:36 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 16:45:37 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 16:45:37 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/vincent/.cache/selenium/chromedriver/mac-arm64/109.0.5414.74/chromedriver
+[INFO ] 30-01-2023 16:45:55 [main] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 30-01-2023 16:45:56 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 16:45:57 [main] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 30-01-2023 16:46:02 [main] [Log] - waitForElementClickable: Element //button[text()='Đăng nhập'] : clickable
+[INFO ] 30-01-2023 16:46:02 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 16:46:03 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 16:46:03 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/vincent/.cache/selenium/chromedriver/mac-arm64/109.0.5414.74/chromedriver
+[INFO ] 30-01-2023 16:46:21 [main] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 30-01-2023 16:46:21 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 16:46:22 [main] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 30-01-2023 16:46:27 [main] [Log] - waitForElementClickable: Element //button[text()='Đăng nhập'] : clickable
+[INFO ] 30-01-2023 16:46:27 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 16:46:28 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 16:48:21 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 16:48:21 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 16:48:21 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Regression Tests
+---------------------------------------------------------------
+[INFO ] 30-01-2023 16:48:21 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 16:48:21 [TestNG-test=Common-1] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 16:48:21 [TestNG-test=Common-1] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/vincent/.cache/selenium/chromedriver/mac-arm64/109.0.5414.74/chromedriver
+[INFO ] 30-01-2023 16:48:40 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 30-01-2023 16:48:42 [TestNG-test=Common-1] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 16:48:47 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 30-01-2023 16:48:50 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //button[text()='Đăng nhập'] : clickable
+[INFO ] 30-01-2023 16:48:50 [TestNG-test=Common-1] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 16:48:50 [TestNG-test=Common-1] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 16:48:50 [TestNG-test=Common-1] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/vincent/.cache/selenium/chromedriver/mac-arm64/109.0.5414.74/chromedriver
+[INFO ] 30-01-2023 16:49:09 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 30-01-2023 16:49:10 [TestNG-test=Common-1] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 16:49:14 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 30-01-2023 16:49:17 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //button[text()='Đăng nhập'] : clickable
+[INFO ] 30-01-2023 16:49:18 [TestNG-test=Common-1] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 16:49:18 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Regression Tests 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 16:49:18 [main] [Log] - testscript.amisaccounting.projects.demo.nopcommerce.LoginTest pass 2 skip 0 fail 0
+[INFO ] 30-01-2023 16:50:06 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 16:50:06 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 16:50:06 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Regression Tests
+---------------------------------------------------------------
+[INFO ] 30-01-2023 16:50:06 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 16:50:07 [TestNG-test=Common-1] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 16:50:07 [TestNG-test=Common-1] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/vincent/.cache/selenium/chromedriver/mac-arm64/109.0.5414.74/chromedriver
+[INFO ] 30-01-2023 16:50:25 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 30-01-2023 16:50:26 [TestNG-test=Common-1] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 16:50:27 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 30-01-2023 16:50:32 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //button[text()='Đăng nhập'] : clickable
+[INFO ] 30-01-2023 16:50:32 [TestNG-test=Common-1] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 16:50:32 [TestNG-test=Common-1] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 16:50:32 [TestNG-test=Common-1] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/vincent/.cache/selenium/chromedriver/mac-arm64/109.0.5414.74/chromedriver
+[INFO ] 30-01-2023 16:50:51 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 30-01-2023 16:50:52 [TestNG-test=Common-1] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 16:50:53 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 30-01-2023 16:50:58 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //button[text()='Đăng nhập'] : clickable
+[INFO ] 30-01-2023 16:50:58 [TestNG-test=Common-1] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 16:50:58 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Regression Tests 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 16:50:59 [main] [Log] - testscript.amisaccounting.projects.demo.nopcommerce.LoginTest pass 2 skip 0 fail 0
+[INFO ] 30-01-2023 17:27:13 [main] [Log] - Loaded all properties files.
+[INFO ] 30-01-2023 17:27:13 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 30-01-2023 17:27:13 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Regression Tests
+---------------------------------------------------------------
+[INFO ] 30-01-2023 17:27:13 [main] [Log] - TestBase: beforeSuite
+[INFO ] 30-01-2023 17:27:13 [TestNG-test=Common-1] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 17:27:13 [TestNG-test=Common-1] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/vincent/.cache/selenium/chromedriver/mac-arm64/109.0.5414.74/chromedriver
+[INFO ] 30-01-2023 17:27:33 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 30-01-2023 17:27:34 [TestNG-test=Common-1] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 17:27:36 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 30-01-2023 17:27:40 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //button[text()='Đăng nhập'] : clickable
+[INFO ] 30-01-2023 17:27:41 [TestNG-test=Common-1] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 17:27:41 [TestNG-test=Common-1] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 30-01-2023 17:27:41 [TestNG-test=Common-1] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/vincent/.cache/selenium/chromedriver/mac-arm64/109.0.5414.74/chromedriver
+[INFO ] 30-01-2023 17:28:00 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 30-01-2023 17:28:01 [TestNG-test=Common-1] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 30-01-2023 17:28:03 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 30-01-2023 17:28:10 [TestNG-test=Common-1] [Log] - waitForElementClickable: Element //button[text()='Đăng nhập'] : clickable
+[INFO ] 30-01-2023 17:28:10 [TestNG-test=Common-1] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 17:28:10 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Regression Tests 
+---------------------------------------------------------------
+[INFO ] 30-01-2023 17:28:11 [main] [Log] - testscript.amisaccounting.projects.demo.nopcommerce.LoginTest pass 2 skip 0 fail 0

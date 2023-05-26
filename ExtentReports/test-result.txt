@@ -1,0 +1,5 @@
+Testcase	Description	Class	Result
+Regression Tests
+Common
+SMECould_Login_ValidAccount_001	[0] Kiểm tra đăng nhập với danh sách tài khoản hợp lệ	LoginTest	PASSED
+SMECould_Login_ValidAccount_001	[0] Kiểm tra đăng nhập với danh sách tài khoản hợp lệ	LoginTest	PASSED

@@ -1,0 +1,43 @@
+[INFO ] 17-05-2023 22:11:30 [main] [Log] - Loaded all properties files.
+[INFO ] 17-05-2023 22:11:30 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 17-05-2023 22:11:30 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 17-05-2023 22:11:33 [main] [Log] - TestBase: beforeSuite
+[INFO ] 17-05-2023 22:11:37 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 17-05-2023 22:11:37 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 17-05-2023 22:11:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()='Tài khoản'] : visible
+[INFO ] 17-05-2023 22:11:51 [main] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 17-05-2023 22:11:52 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 17-05-2023 22:11:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[@class='login-with-email'] : visible
+[INFO ] 17-05-2023 22:11:52 [main] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 17-05-2023 22:11:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@type='email'] : visible
+[INFO ] 17-05-2023 22:11:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@type='email'] : visible
+[INFO ] 17-05-2023 22:11:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@type='password'] : visible
+[INFO ] 17-05-2023 22:11:54 [main] [Log] - waitForElementClickable: Element //button[text()='Đăng nhập'] : clickable
+[INFO ] 17-05-2023 22:11:54 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 17-05-2023 22:11:54 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 17-05-2023 22:11:54 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 17-05-2023 22:12:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()='Tài khoản'] : visible
+[INFO ] 17-05-2023 22:12:03 [main] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 17-05-2023 22:12:03 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 17-05-2023 22:12:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[@class='login-with-email'] : visible
+[INFO ] 17-05-2023 22:12:04 [main] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 17-05-2023 22:12:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@type='email'] : visible
+[INFO ] 17-05-2023 22:12:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@type='email'] : visible
+[INFO ] 17-05-2023 22:12:05 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@type='password'] : visible
+[INFO ] 17-05-2023 22:12:06 [main] [Log] - waitForElementClickable: Element //button[text()='Đăng nhập'] : clickable
+[INFO ] 17-05-2023 22:12:06 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 17-05-2023 22:12:07 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------

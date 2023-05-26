@@ -1,0 +1,364 @@
+[INFO ] 06-03-2023 22:53:40 [main] [Log] - Loaded all properties files.
+[INFO ] 06-03-2023 22:53:40 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 06-03-2023 22:53:40 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 06-03-2023 22:53:42 [main] [Log] - TestBase: beforeSuite
+[INFO ] 06-03-2023 22:53:43 [main] [WebDriverManager] - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+[INFO ] 06-03-2023 22:53:43 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\110.0.5481.77\chromedriver.exe
+[INFO ] 06-03-2023 22:53:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h1[contains(text(),'Professional WordPress Themes')] : visible
+[INFO ] 06-03-2023 22:53:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Code']] : visible
+[INFO ] 06-03-2023 22:53:56 [main] [Log] - waitForElementVisible: Element //a[text()[normalize-space()='Code']] : visible
+[INFO ] 06-03-2023 22:53:57 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Code']] : clickable
+[INFO ] 06-03-2023 22:54:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h1[contains(text(),'Thousands of code')] : visible
+[INFO ] 06-03-2023 22:54:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='All Items']] : visible
+[INFO ] 06-03-2023 22:54:00 [main] [Log] - waitForElementVisible: Element //a[text()[normalize-space()='All Items']] : visible
+[INFO ] 06-03-2023 22:54:00 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='All Items']] : clickable
+[INFO ] 06-03-2023 22:54:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h1[contains(text(),'Plugins, Code & Scripts')] : visible
+[INFO ] 06-03-2023 22:54:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='term'] : visible
+[INFO ] 06-03-2023 22:54:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //mark[contains(@class,'shared-item_cards-item_name_component__highlight')] : visible
+[INFO ] 06-03-2023 22:54:05 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()[normalize-space()='Best sellers']] : visible
+[INFO ] 06-03-2023 22:54:05 [main] [Log] - waitForElementVisible: Element //a[text()[normalize-space()='Best sellers']] : visible
+[INFO ] 06-03-2023 22:54:05 [main] [Log] - waitForElementClickable: Element //a[text()[normalize-space()='Best sellers']] : clickable
+[INFO ] 06-03-2023 22:54:05 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[contains(@class,'shared-item_cards-card')] : visible
+[INFO ] 06-03-2023 22:54:05 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[contains(@class,'shared-item_cards-card')][1]//a[contains(@class,'_itemNameLink')] : visible
+[INFO ] 06-03-2023 22:54:05 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[contains(@class,'shared-item_cards-card')][1]//div[contains(@class,'cards-sales_component__root')] : visible
+[INFO ] 06-03-2023 22:54:05 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[contains(@class,'shared-item_cards-card')][2]//a[contains(@class,'_itemNameLink')] : visible
+[INFO ] 06-03-2023 22:54:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[contains(@class,'shared-item_cards-card')][2]//div[contains(@class,'cards-sales_component__root')] : visible
+[INFO ] 06-03-2023 22:54:07 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[contains(@class,'shared-item_cards-card')][3]//a[contains(@class,'_itemNameLink')] : visible
+[INFO ] 06-03-2023 22:54:07 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[contains(@class,'shared-item_cards-card')][3]//div[contains(@class,'cards-sales_component__root')] : visible
+[ERROR] 06-03-2023 22:54:08 [main] [Log] - java.lang.NumberFormatException: For input string: "87.7K"
+[INFO ] 06-03-2023 22:54:15 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_02
+[INFO ] 06-03-2023 22:54:15 [main] [Log] - 
+TestListener: COMPLETED TC: TC_02 - SKIP 
+---------------------------------------------------------------
+[INFO ] 06-03-2023 22:54:20 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://codecanyon.net/search/elementor?sort=sales#content
+[INFO ] 06-03-2023 22:54:20 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_02
+[INFO ] 06-03-2023 22:54:20 [main] [Log] - 
+TestListener: COMPLETED TC: TC_02 - SKIP 
+---------------------------------------------------------------
+[INFO ] 06-03-2023 22:54:20 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://codecanyon.net/search/elementor?sort=sales#content
+[INFO ] 06-03-2023 22:54:20 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 10-05-2023 12:00:11 [main] [Log] - Loaded all properties files.
+[INFO ] 10-05-2023 12:00:11 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 10-05-2023 12:00:11 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 10-05-2023 12:00:12 [main] [Log] - TestBase: beforeSuite
+[INFO ] 10-05-2023 12:00:17 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 10-05-2023 12:00:17 [main] [WebDriverManager] - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+[INFO ] 10-05-2023 12:00:18 [main] [Downloader] - Downloading https://chromedriver.storage.googleapis.com/113.0.5672.63/chromedriver_win32.zip
+[INFO ] 10-05-2023 12:00:19 [main] [Downloader] - Extracting driver from compressed file chromedriver_win32.zip
+[INFO ] 10-05-2023 12:00:19 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[ERROR] 10-05-2023 12:00:25 [main] [Log] - org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65058/devtools/browser/811b2e60-6006-4e4b-8c85-1ab5a80cd26f
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-4CPQTT4', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: ChromeDriver
+[INFO ] 10-05-2023 12:00:26 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_02
+[INFO ] 10-05-2023 12:00:26 [main] [Log] - 
+TestListener: COMPLETED TC: TC_02 - SKIP 
+---------------------------------------------------------------
+[INFO ] 10-05-2023 12:00:26 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_02
+[INFO ] 10-05-2023 12:00:26 [main] [Log] - 
+TestListener: COMPLETED TC: TC_02 - SKIP 
+---------------------------------------------------------------
+[INFO ] 10-05-2023 12:00:26 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 10-05-2023 12:23:22 [main] [Log] - Loaded all properties files.
+[INFO ] 10-05-2023 12:23:22 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 10-05-2023 12:23:22 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 10-05-2023 12:23:24 [main] [Log] - TestBase: beforeSuite
+[INFO ] 10-05-2023 12:23:24 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 10-05-2023 12:23:25 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[ERROR] 10-05-2023 12:23:30 [main] [Log] - org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50022/devtools/browser/28314171-0e3a-475c-a4b9-adbedaa9e359
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-4CPQTT4', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: ChromeDriver
+[INFO ] 10-05-2023 12:23:33 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_02
+[INFO ] 10-05-2023 12:23:33 [main] [Log] - 
+TestListener: COMPLETED TC: TC_02 - SKIP 
+---------------------------------------------------------------
+[INFO ] 10-05-2023 12:23:33 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_02
+[INFO ] 10-05-2023 12:23:33 [main] [Log] - 
+TestListener: COMPLETED TC: TC_02 - SKIP 
+---------------------------------------------------------------
+[INFO ] 10-05-2023 12:23:33 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 10-05-2023 23:01:01 [main] [Log] - Loaded all properties files.
+[INFO ] 10-05-2023 23:01:01 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 10-05-2023 23:01:01 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 10-05-2023 23:01:02 [main] [Log] - TestBase: beforeSuite
+[INFO ] 10-05-2023 23:01:04 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 10-05-2023 23:01:04 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[ERROR] 10-05-2023 23:01:09 [main] [Log] - org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:56324/devtools/browser/141ca569-a2c8-452b-a713-7f78adc40c2b
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-4CPQTT4', ip: '192.168.1.203', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: ChromeDriver
+[INFO ] 10-05-2023 23:01:10 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_02
+[INFO ] 10-05-2023 23:01:11 [main] [Log] - 
+TestListener: COMPLETED TC: TC_02 - SKIP 
+---------------------------------------------------------------
+[INFO ] 10-05-2023 23:01:11 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_02
+[INFO ] 10-05-2023 23:01:11 [main] [Log] - 
+TestListener: COMPLETED TC: TC_02 - SKIP 
+---------------------------------------------------------------
+[INFO ] 10-05-2023 23:01:11 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 10-05-2023 23:32:50 [main] [Log] - Loaded all properties files.
+[INFO ] 10-05-2023 23:32:50 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 10-05-2023 23:32:50 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 10-05-2023 23:32:54 [main] [Log] - TestBase: beforeSuite
+[INFO ] 10-05-2023 23:33:05 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 10-05-2023 23:33:05 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 10-05-2023 23:33:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()='Tài khoản'] : visible
+[INFO ] 10-05-2023 23:33:50 [main] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 10-05-2023 23:33:50 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 10-05-2023 23:33:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[@class='login-with-email'] : visible
+[INFO ] 10-05-2023 23:33:52 [main] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 10-05-2023 23:33:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@type='email'] : visible
+[INFO ] 10-05-2023 23:33:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@type='email'] : visible
+[INFO ] 10-05-2023 23:33:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@type='password'] : visible
+[INFO ] 10-05-2023 23:33:55 [main] [Log] - waitForElementClickable: Element //button[text()='Đăng nhập'] : clickable
+[INFO ] 10-05-2023 23:33:56 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 10-05-2023 23:33:57 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 10-05-2023 23:33:57 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 10-05-2023 23:34:10 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()='Tài khoản'] : visible
+[INFO ] 10-05-2023 23:34:10 [main] [Log] - waitForElementClickable: Element //span[text()='Tài khoản'] : clickable
+[INFO ] 10-05-2023 23:34:10 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  SMECould_Login_ValidAccount_001
+[INFO ] 10-05-2023 23:34:11 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //p[@class='login-with-email'] : visible
+[INFO ] 10-05-2023 23:34:11 [main] [Log] - waitForElementClickable: Element //p[@class='login-with-email'] : clickable
+[INFO ] 10-05-2023 23:34:12 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@type='email'] : visible
+[INFO ] 10-05-2023 23:34:12 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@type='email'] : visible
+[INFO ] 10-05-2023 23:34:13 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@type='password'] : visible
+[INFO ] 10-05-2023 23:34:14 [main] [Log] - waitForElementClickable: Element //button[text()='Đăng nhập'] : clickable
+[INFO ] 10-05-2023 23:34:15 [main] [Log] - 
+TestListener: COMPLETED TC: SMECould_Login_ValidAccount_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 10-05-2023 23:34:16 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 10-05-2023 23:45:31 [main] [Log] - Loaded all properties files.
+[INFO ] 10-05-2023 23:45:31 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 10-05-2023 23:45:37 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 10-05-2023 23:46:02 [main] [Log] - TestBase: beforeSuite
+[INFO ] 10-05-2023 23:46:23 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 10-05-2023 23:46:24 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 10-05-2023 23:48:23 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Computer database'] : visible
+[INFO ] 10-05-2023 23:49:22 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 10-05-2023 23:49:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Add a new computer'] : visible
+[INFO ] 10-05-2023 23:49:47 [main] [Log] - waitForElementVisible: Element //a[text()='Add a new computer'] : visible
+[INFO ] 10-05-2023 23:50:00 [main] [Log] - waitForElementClickable: Element //a[text()='Add a new computer'] : clickable
+[INFO ] 10-05-2023 23:50:42 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - FAIL 
+---------------------------------------------------------------
+[INFO ] 10-05-2023 23:50:46 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://computer-database.gatling.io/computers
+[ERROR] 10-05-2023 23:50:46 [main] [Log] - FAILED !! Screenshot for test case: TC_01
+[ERROR] 10-05-2023 23:50:48 [main] [Log] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="btn success" id="add" href="/computers/new">...</a> is not clickable at point (1166, 14). Other element would receive the click: <h1 class="fill">...</h1>
+  (Session info: chrome=113.0.5672.92)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5705648a167ba5c98fc9823d74f4d7ae, clickElement {id=1D1207857EBA79E4A3664193803F24D6_element_104}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57923}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57923/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5705648a167ba5c98fc9823d74f4d7ae)] -> xpath: //a[text()='Add a new computer']]
+Session ID: 5705648a167ba5c98fc9823d74f4d7ae
+[INFO ] 10-05-2023 23:50:49 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 10-05-2023 23:50:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Add a new computer'] : visible
+[INFO ] 10-05-2023 23:51:02 [main] [Log] - waitForElementVisible: Element //a[text()='Add a new computer'] : visible
+[INFO ] 10-05-2023 23:51:10 [main] [Log] - waitForElementClickable: Element //a[text()='Add a new computer'] : clickable
+[INFO ] 10-05-2023 23:51:26 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - FAIL 
+---------------------------------------------------------------
+[INFO ] 10-05-2023 23:51:29 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://computer-database.gatling.io/computers
+[ERROR] 10-05-2023 23:51:29 [main] [Log] - FAILED !! Screenshot for test case: TC_01
+[ERROR] 10-05-2023 23:51:31 [main] [Log] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="btn success" id="add" href="/computers/new">...</a> is not clickable at point (1166, 14). Other element would receive the click: <h1 class="fill">...</h1>
+  (Session info: chrome=113.0.5672.92)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5705648a167ba5c98fc9823d74f4d7ae, clickElement {id=1D1207857EBA79E4A3664193803F24D6_element_104}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57923}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57923/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5705648a167ba5c98fc9823d74f4d7ae)] -> xpath: //a[text()='Add a new computer']]
+Session ID: 5705648a167ba5c98fc9823d74f4d7ae
+[INFO ] 10-05-2023 23:51:33 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 10-05-2023 23:51:44 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - FAIL 
+---------------------------------------------------------------
+[ERROR] 10-05-2023 23:51:44 [main] [Log] - FAILED !! Screenshot for test case: TC_01
+[ERROR] 10-05-2023 23:51:44 [main] [Log] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.92)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5705648a167ba5c98fc9823d74f4d7ae, executeScript {script=arguments[0].scrollIntoView(true);, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57923}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57923/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5705648a167ba5c98fc9823d74f4d7ae
+[INFO ] 10-05-2023 23:51:44 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 10-05-2023 23:51:55 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - FAIL 
+---------------------------------------------------------------
+[ERROR] 10-05-2023 23:51:55 [main] [Log] - FAILED !! Screenshot for test case: TC_01
+[ERROR] 10-05-2023 23:51:55 [main] [Log] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.92)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5705648a167ba5c98fc9823d74f4d7ae, executeScript {script=arguments[0].scrollIntoView(true);, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57923}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57923/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5705648a167ba5c98fc9823d74f4d7ae
+[INFO ] 10-05-2023 23:51:55 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 10-05-2023 23:52:06 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - FAIL 
+---------------------------------------------------------------
+[ERROR] 10-05-2023 23:52:06 [main] [Log] - FAILED !! Screenshot for test case: TC_01
+[ERROR] 10-05-2023 23:52:06 [main] [Log] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.92)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5705648a167ba5c98fc9823d74f4d7ae, executeScript {script=arguments[0].scrollIntoView(true);, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57923}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57923/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5705648a167ba5c98fc9823d74f4d7ae
+[INFO ] 10-05-2023 23:52:07 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 10-05-2023 23:52:18 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - FAIL 
+---------------------------------------------------------------
+[ERROR] 10-05-2023 23:52:18 [main] [Log] - FAILED !! Screenshot for test case: TC_01
+[ERROR] 10-05-2023 23:52:18 [main] [Log] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.92)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5705648a167ba5c98fc9823d74f4d7ae, executeScript {script=arguments[0].scrollIntoView(true);, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57923}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57923/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5705648a167ba5c98fc9823d74f4d7ae
+[INFO ] 10-05-2023 23:52:18 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 10-05-2023 23:52:28 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - FAIL 
+---------------------------------------------------------------
+[ERROR] 10-05-2023 23:52:28 [main] [Log] - FAILED !! Screenshot for test case: TC_01
+[ERROR] 10-05-2023 23:52:28 [main] [Log] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.92)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5705648a167ba5c98fc9823d74f4d7ae, executeScript {script=arguments[0].scrollIntoView(true);, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57923}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57923/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5705648a167ba5c98fc9823d74f4d7ae
+[INFO ] 10-05-2023 23:52:29 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 10-05-2023 23:52:39 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - FAIL 
+---------------------------------------------------------------
+[ERROR] 10-05-2023 23:52:39 [main] [Log] - FAILED !! Screenshot for test case: TC_01
+[ERROR] 10-05-2023 23:52:39 [main] [Log] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.92)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5705648a167ba5c98fc9823d74f4d7ae, executeScript {script=arguments[0].scrollIntoView(true);, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57923}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57923/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5705648a167ba5c98fc9823d74f4d7ae
+[INFO ] 10-05-2023 23:52:39 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 10-05-2023 23:52:49 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - FAIL 
+---------------------------------------------------------------
+[ERROR] 10-05-2023 23:52:49 [main] [Log] - FAILED !! Screenshot for test case: TC_01
+[ERROR] 10-05-2023 23:52:49 [main] [Log] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.92)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5705648a167ba5c98fc9823d74f4d7ae, executeScript {script=arguments[0].scrollIntoView(true);, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57923}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57923/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5705648a167ba5c98fc9823d74f4d7ae
+[INFO ] 10-05-2023 23:52:49 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 10-05-2023 23:52:59 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - FAIL 
+---------------------------------------------------------------
+[ERROR] 10-05-2023 23:52:59 [main] [Log] - FAILED !! Screenshot for test case: TC_01
+[ERROR] 10-05-2023 23:52:59 [main] [Log] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.92)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5705648a167ba5c98fc9823d74f4d7ae, executeScript {script=arguments[0].scrollIntoView(true);, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\LINH-PC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57923}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57923/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5705648a167ba5c98fc9823d74f4d7ae
+[INFO ] 10-05-2023 23:53:00 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------

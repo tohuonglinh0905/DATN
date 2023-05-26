@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Tests" parallel="classes" thread-count="3">
+    <listeners>
+        <!--<listener class-name="common.demo.nopcommerce.AnnotationTransformer"/>-->
+        <listener class-name="demo.nopcommerce.report.EmailableReporter"/>
+    </listeners>
+
+    <test name="Cash and Sale Module" enabled="true">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+                    <class name="demo.nopcommerce.projects.demo.testScript.HRMLiveTest"/>
+
+        </classes>
+    </test>
+
+</suite>

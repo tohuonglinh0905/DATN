@@ -52,7 +52,6 @@ public class RegisterPage extends BasePage {
     public MyAccount goToMyAccountPage() {
         WebElement element = findElement(String.format(BaseConst.DYNAMIC_LOCATOR_TEXT_FORM, "a", "My account"));
         scrollToElement(element);
-
         waitForElementVisible(element);
         clickElement(element, "Save");
         return new MyAccount();

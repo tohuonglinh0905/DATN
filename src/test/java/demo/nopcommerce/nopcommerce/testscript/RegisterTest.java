@@ -22,7 +22,18 @@ public class RegisterTest extends TestBase {
     MyAccount myAccount;
     Search_and_Advanced_Search search;
     Wishlist wishlist;
-
+    Addresses addresses;
+    String firstName = "linh";
+    String lastName = "to";
+    String email = "linhth3@gmail.com";
+    String pass = "123456";
+    String company = "linhto0905";
+    String Search = "abc";
+    String city = "HaNoi";
+    String address1 = "Đống Đa";
+    String address2 = "Khương Thượng";
+    String ZipPostalCode= "01928284";
+    String number ="019283748";
     @BeforeMethod(alwaysRun = true)
     public void createDriver(@Optional("chrome") String browser) {
         WebDriver driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
@@ -38,16 +49,15 @@ public class RegisterTest extends TestBase {
     }
 
     @MisaAnnotation(category = {CategoryType.REGRESSION}, author = {AuthorType.Linh}, reviewer = {AuthorType.Linh})
-//    @Test(priority = 1, description = "Kiểm tra đăng nhập với danh sách tài khoản hợp lệ", dataProvider = "LoginFunction", dataProviderClass = LoginDataProvider.class)
+//    @Test(priority = 1, description = "Kiểm tra đăng nhập với danh sách tài khoản hợp lệ")
     @Test
-    public void Login_Account_001() // Đăng ký/Đăng nhập/search
-    {
-        String firstName = "linh";
-        String lastName = "to";
-        String email = "linhth3@gmail.com";
-        String pass = "123456";
-        String company = "linhto0905";
-        String Search = "abc";
+    public void Login_Account_001() {
+//        String firstName = "linh";
+//        String lastName = "to";
+//        String email = "linhth3@gmail.com";
+//        String pass = "123456";
+//        String company = "linhto0905";
+//        String Search = "abc";
         registerPage = homePage.registerPage();
         registerPage.createAccount(firstName, lastName, email, pass);
         loginPage = registerPage.goToLoginPage();
@@ -61,20 +71,31 @@ public class RegisterTest extends TestBase {
     }
 
     @MisaAnnotation(category = {CategoryType.REGRESSION}, author = {AuthorType.Linh}, reviewer = {AuthorType.Linh})
-//    @Test(priority = 1, description = "Kiểm tra đăng nhập với danh sách tài khoản hợp lệ", dataProvider = "LoginFunction", dataProviderClass = LoginDataProvider.class)
-    @Test(priority=1)
-    public void WishList_01() {//Danh sách yêu thích khi không click vào Ram và HDD
+//    @Test(priority = 1, description = "Kiểm tra danh sách yêu thích khi không click vào Ram và HDD")
+    @Test
+    public void WishList_01() {
         homePage = homePage.gotoHomePage();
         wishlist = homePage.goToWishlistPage();
         wishlist.ClickWishList01();
     }
+
     @MisaAnnotation(category = {CategoryType.REGRESSION}, author = {AuthorType.Linh}, reviewer = {AuthorType.Linh})
-//    @Test(priority = 1, description = "Kiểm tra đăng nhập với danh sách tài khoản hợp lệ", dataProvider = "LoginFunction", dataProviderClass = LoginDataProvider.class)
-    @Test(priority=2)
-    public void WishList_02(){
-        homePage=homePage.gotoHomePage();
+//    @Test(priority = 2, description = "Kiểm tra danh sách yêu thích khi nhập đầu đủ Ram và HDD")
+    @Test(priority = 2)
+    public void WishList_02() {
+        homePage = homePage.gotoHomePage();
         wishlist = homePage.goToWishlistPage();
         wishlist.ClickWishList02();
     }
-
+    @MisaAnnotation(category = {CategoryType.REGRESSION}, author = {AuthorType.Linh}, reviewer = {AuthorType.Linh})
+//    @Test(priority = 2, description = "Kiểm tra danh sách yêu thích khi nhập đầu đủ Ram và HDD")
+    @Test
+    public void Addresses(){
+        registerPage = homePage.registerPage();
+        registerPage.createAccount(firstName, lastName, email, pass);
+        loginPage = registerPage.goToLoginPage();
+        homePage = loginPage.loginPage(email, pass);
+        addresses = homePage.goToAddressesPage();
+        addresses.createAddresses(firstName, lastName, email, company,city,address1,address2,ZipPostalCode,number);
+    }
 }

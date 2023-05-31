@@ -36,7 +36,13 @@ public class HomePage extends BasePage {
         clickElement(element, "Add to wishlist");
         return new Wishlist();
     }
-
+    public Addresses goToAddressesPage() {
+        WebElement element = findElement(String.format(BaseConst.DYNAMIC_LOCATOR_TEXT_FORM, "a", "Addresses"));
+        scrollToElement(element);
+        waitForElementVisible(element);
+        clickElement(element, "Save");
+        return new Addresses();
+    }
     /**
      * Go to Login Page
      */

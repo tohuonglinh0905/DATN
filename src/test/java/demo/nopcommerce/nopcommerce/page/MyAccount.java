@@ -22,6 +22,5 @@ public class MyAccount extends BasePage {
         clickToLabelWithText("Newsletter:");
 //        uncheckToDefaultCheckbox("xpath=//input[@id = 'Newsletter']");
         clickToButtonWithText("Save");
-
     }
     }

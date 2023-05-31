@@ -1,0 +1,139 @@
+[INFO ] 27-05-2023 21:56:27 [main] [Log] - Loaded all properties files.
+[INFO ] 27-05-2023 21:56:27 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 27-05-2023 21:56:27 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 27-05-2023 21:56:29 [main] [Log] - TestBase: beforeSuite
+[INFO ] 27-05-2023 21:56:32 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 27-05-2023 21:56:32 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 27-05-2023 21:56:41 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  Login_Account_001
+[INFO ] 27-05-2023 21:56:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 27-05-2023 21:56:45 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 27-05-2023 21:56:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 27-05-2023 21:56:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 27-05-2023 21:56:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 27-05-2023 21:56:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 27-05-2023 21:56:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 27-05-2023 21:56:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 27-05-2023 21:56:48 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 27-05-2023 21:56:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Log in'] : visible
+[INFO ] 27-05-2023 21:56:49 [main] [Log] - waitForElementVisible: Element //a[text()='Log in'] : visible
+[INFO ] 27-05-2023 21:56:49 [main] [Log] - waitForElementClickable: Element //a[text()='Log in'] : clickable
+[INFO ] 27-05-2023 21:56:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 27-05-2023 21:56:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 27-05-2023 21:56:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Log in'] : visible
+[INFO ] 27-05-2023 21:56:50 [main] [Log] - waitForElementClickable: Element //button[text()='Log in'] : clickable
+[INFO ] 27-05-2023 21:56:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='My account'] : visible
+[INFO ] 27-05-2023 21:56:51 [main] [Log] - waitForElementVisible: Element //a[text()='My account'] : visible
+[INFO ] 27-05-2023 21:56:51 [main] [Log] - waitForElementVisible: Element //a[text()='My account'] : visible
+[INFO ] 27-05-2023 21:56:52 [main] [Log] - waitForElementClickable: Element //a[text()='My account'] : clickable
+[INFO ] 27-05-2023 21:56:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Female'] : visible
+[INFO ] 27-05-2023 21:56:52 [main] [Log] - waitForElementClickable: Element //label[text()='Female'] : clickable
+[INFO ] 27-05-2023 21:56:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 27-05-2023 21:56:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 27-05-2023 21:56:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@name='DateOfBirthDay'] : visible
+[INFO ] 27-05-2023 21:56:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@name='DateOfBirthMonth'] : visible
+[INFO ] 27-05-2023 21:56:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@name='DateOfBirthYear'] : visible
+[INFO ] 27-05-2023 21:56:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 27-05-2023 21:56:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Company'] : visible
+[INFO ] 27-05-2023 21:56:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Newsletter:'] : visible
+[INFO ] 27-05-2023 21:56:58 [main] [Log] - waitForElementClickable: Element //label[text()='Newsletter:'] : clickable
+[INFO ] 27-05-2023 21:56:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Save'] : visible
+[INFO ] 27-05-2023 21:56:58 [main] [Log] - waitForElementClickable: Element //button[text()='Save'] : clickable
+[INFO ] 27-05-2023 21:56:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Search'] : visible
+[INFO ] 27-05-2023 21:56:59 [main] [Log] - waitForElementVisible: Element //a[text()='Search'] : visible
+[INFO ] 27-05-2023 21:56:59 [main] [Log] - waitForElementVisible: Element //a[text()='Search'] : visible
+[INFO ] 27-05-2023 21:56:59 [main] [Log] - waitForElementClickable: Element //a[text()='Search'] : clickable
+[INFO ] 27-05-2023 21:57:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@class='search-text'] : visible
+[INFO ] 27-05-2023 21:57:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Advanced search'] : visible
+[INFO ] 27-05-2023 21:57:01 [main] [Log] - waitForElementClickable: Element //label[text()='Advanced search'] : clickable
+[INFO ] 27-05-2023 21:57:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@name='cid'] : visible
+[INFO ] 27-05-2023 21:57:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Automatically search sub categories'] : visible
+[INFO ] 27-05-2023 21:57:02 [main] [Log] - waitForElementClickable: Element //label[text()='Automatically search sub categories'] : clickable
+[INFO ] 27-05-2023 21:57:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@name='mid'] : visible
+[INFO ] 27-05-2023 21:57:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Search In product descriptions'] : visible
+[INFO ] 27-05-2023 21:57:02 [main] [Log] - waitForElementClickable: Element //label[text()='Search In product descriptions'] : clickable
+[INFO ] 27-05-2023 21:57:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Search'] : visible
+[INFO ] 27-05-2023 21:57:02 [main] [Log] - waitForElementClickable: Element //button[text()='Search'] : clickable
+[INFO ] 27-05-2023 21:57:03 [main] [Log] - 
+TestListener: COMPLETED TC: Login_Account_001 - PASS 
+---------------------------------------------------------------
+[INFO ] 27-05-2023 21:57:03 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 27-05-2023 21:58:18 [main] [Log] - Loaded all properties files.
+[INFO ] 27-05-2023 21:58:18 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 27-05-2023 21:58:18 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 27-05-2023 21:58:20 [main] [Log] - TestBase: beforeSuite
+[INFO ] 27-05-2023 21:58:21 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 27-05-2023 21:58:21 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 27-05-2023 21:58:28 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_01
+[INFO ] 27-05-2023 21:58:32 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 27-05-2023 21:58:32 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 27-05-2023 21:58:32 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 27-05-2023 21:58:32 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 27-05-2023 21:58:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 27-05-2023 21:58:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 27-05-2023 21:58:33 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 27-05-2023 21:58:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 27-05-2023 21:58:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 27-05-2023 21:58:34 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 27-05-2023 21:58:35 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 27-05-2023 21:58:35 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 27-05-2023 21:58:35 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 27-05-2023 21:58:37 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_01 - PASS 
+---------------------------------------------------------------
+[INFO ] 27-05-2023 21:58:37 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 27-05-2023 21:59:36 [main] [Log] - Loaded all properties files.
+[INFO ] 27-05-2023 21:59:36 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 27-05-2023 21:59:36 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 27-05-2023 21:59:38 [main] [Log] - TestBase: beforeSuite
+[INFO ] 27-05-2023 21:59:40 [main] [WebDriverManager] - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[INFO ] 27-05-2023 21:59:40 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[INFO ] 27-05-2023 21:59:47 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 27-05-2023 21:59:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 27-05-2023 21:59:50 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 27-05-2023 21:59:50 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 27-05-2023 21:59:51 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 27-05-2023 21:59:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 27-05-2023 21:59:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 27-05-2023 21:59:52 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 27-05-2023 21:59:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 27-05-2023 21:59:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 27-05-2023 21:59:53 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 27-05-2023 21:59:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 27-05-2023 21:59:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 27-05-2023 21:59:54 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 27-05-2023 21:59:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 27-05-2023 21:59:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 27-05-2023 21:59:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 27-05-2023 21:59:55 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 27-05-2023 21:59:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@class = 'bar-notification success']//p : visible
+[INFO ] 27-05-2023 22:00:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()='Wishlist'] : visible
+[INFO ] 27-05-2023 22:00:01 [main] [Log] - waitForElementVisible: Element //span[text()='Wishlist'] : visible
+[INFO ] 27-05-2023 22:00:01 [main] [Log] - waitForElementClickable: Element //span[text()='Wishlist'] : clickable
+[INFO ] 27-05-2023 22:00:03 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - PASS 
+---------------------------------------------------------------
+[INFO ] 27-05-2023 22:00:03 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------

@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.Assert;
 
 
 public class RegisterPage extends BasePage {
@@ -18,16 +19,8 @@ public class RegisterPage extends BasePage {
         PageFactory.initElements(factory, this);
     }
 
-    //region Locator
-//    String RegisterGender = "//label[text()='Male']]";
     String RegisterFirstName = "//input[@name='FirstName']";
-//    String RegisterLastName = "//input[@name='LastName']";
-//    String RegisterEmail = "//input[@name='Email']";
-//    String RegisterPassword = "//input[@name='Password']";
-//    String RegisterConfirmPassword = "//input[@name='ConfirmPassword']";
 
-
-    //endregion
     public void createAccount(String firstName, String lastName, String email, String pass) {
         getWaitDriver().until(ExpectedConditions.visibilityOfElementLocated(By.xpath(RegisterFirstName)));
         inputTextWithName("FirstName", firstName);
@@ -36,6 +29,39 @@ public class RegisterPage extends BasePage {
         inputTextWithName("Password", pass);
         inputTextWithName("ConfirmPassword", pass);
         clickToButtonWithText("Register");
+    }
+
+    public void createAccount01() {
+        getWaitDriver().until(ExpectedConditions.visibilityOfElementLocated(By.xpath(RegisterFirstName)));
+        clickToButtonWithText("Register");
+        Assert.assertEquals(webDriver.findElement(By.cssSelector("span#FirstName-error")).getText(), "First name is required.");
+        Assert.assertEquals(webDriver.findElement(By.cssSelector("span#LastName-error")).getText(), "Last name is required.");
+        Assert.assertEquals(webDriver.findElement(By.cssSelector("span#Email-error")).getText(), "Email is required.");
+        Assert.assertEquals(webDriver.findElement(By.cssSelector("span#Password-error")).getText(), "Password is required.");
+        Assert.assertEquals(webDriver.findElement(By.cssSelector("span#ConfirmPassword-error")).getText(), "Password is required.");
+
+    }
+
+    public void createAccount02(String firstName, String lastName, String email01, String pass) {
+        getWaitDriver().until(ExpectedConditions.visibilityOfElementLocated(By.xpath(RegisterFirstName)));
+        inputTextWithName("FirstName", firstName);
+        inputTextWithName("LastName", lastName);
+        inputTextWithName("Email", email01);
+        inputTextWithName("Password", pass);
+        inputTextWithName("ConfirmPassword", pass);
+        clickToButtonWithText("Register");
+        Assert.assertEquals(webDriver.findElement(By.cssSelector("span#Email-error")).getText(), "Wrong email");
+    }
+
+    public void createAccount03(String firstName, String lastName, String email01, String pass01) {
+        getWaitDriver().until(ExpectedConditions.visibilityOfElementLocated(By.xpath(RegisterFirstName)));
+        inputTextWithName("FirstName", firstName);
+        inputTextWithName("LastName", lastName);
+        inputTextWithName("Email", email01);
+        inputTextWithName("Password", pass01);
+        inputTextWithName("ConfirmPassword", pass01);
+        clickToButtonWithText("Register");
+        Assert.assertEquals(webDriver.findElement(By.cssSelector("span#Password-error")).getText(), "Password must meet the following rules:\nmust have at least 6 characters");
     }
 
     public LoginPage goToLoginPage() {

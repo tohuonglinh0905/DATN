@@ -4,7 +4,7 @@ import java.io.File;
 
 public class BaseConst {
     //region xpath folder
-    public static String imgFolderPath = "src/test/resources/datatest/HRMLive/%s/";
+    public static String imgFolderPath = "src/test/resources/datatest/DoAn_File/";
     public static String imgFileAbsolutePath = System.getProperty("user.dir") + File.separator + String.format(imgFolderPath, "image");
     public static String xlsxFileAbsolutePath = System.getProperty("user.dir") + File.separator + String.format(imgFolderPath, "file");
     //endregion

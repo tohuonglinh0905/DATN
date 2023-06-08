@@ -3,7 +3,6 @@ package demo.nopcommerce.nopcommerce.page;
 import demo.nopcommerce.common.BaseConst;
 import demo.nopcommerce.common.BasePage;
 import demo.nopcommerce.constants.FrameworkConst;
-import demo.nopcommerce.projects.amisaccounting.page.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -42,6 +41,13 @@ public class HomePage extends BasePage {
         waitForElementVisible(element);
         clickElement(element, "Save");
         return new Addresses();
+    }
+    public Search_and_Advanced_Search goToMySearchPage() {
+        WebElement element = findElement(String.format(BaseConst.DYNAMIC_LOCATOR_TEXT_FORM, "a", "Search"));
+        scrollToElement(element);
+        waitForElementVisible(element);
+        clickElement(element, "Save");
+        return new Search_and_Advanced_Search();
     }
     /**
      * Go to Login Page

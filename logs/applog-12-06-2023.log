@@ -1,0 +1,265 @@
+[INFO ] 07-06-2023 00:00:07 [main] [Log] - Loaded all properties files.
+[INFO ] 07-06-2023 00:00:07 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 07-06-2023 00:00:07 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:00:08 [main] [Log] - TestBase: beforeSuite
+[INFO ] 07-06-2023 00:00:11 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:00:12 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:02:13 [main] [Log] - Loaded all properties files.
+[INFO ] 07-06-2023 00:02:13 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 07-06-2023 00:02:14 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:02:15 [main] [Log] - TestBase: beforeSuite
+[INFO ] 07-06-2023 00:05:22 [main] [Log] - Loaded all properties files.
+[INFO ] 07-06-2023 00:05:22 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 07-06-2023 00:05:23 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:05:24 [main] [Log] - TestBase: beforeSuite
+[INFO ] 07-06-2023 00:05:28 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:05:29 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:06:57 [main] [Log] - Loaded all properties files.
+[INFO ] 07-06-2023 00:06:57 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 07-06-2023 00:06:57 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:06:59 [main] [Log] - TestBase: beforeSuite
+[INFO ] 07-06-2023 00:07:02 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:07:03 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:10:00 [main] [Log] - Loaded all properties files.
+[INFO ] 07-06-2023 00:10:00 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 07-06-2023 00:10:01 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:10:02 [main] [Log] - TestBase: beforeSuite
+[INFO ] 07-06-2023 00:10:05 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:10:06 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:11:08 [main] [Log] - Loaded all properties files.
+[INFO ] 07-06-2023 00:11:08 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 07-06-2023 00:11:08 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:11:10 [main] [Log] - TestBase: beforeSuite
+[INFO ] 07-06-2023 00:13:21 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:13:58 [main] [Log] - Loaded all properties files.
+[INFO ] 07-06-2023 00:13:58 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 07-06-2023 00:13:58 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:13:59 [main] [Log] - TestBase: beforeSuite
+[INFO ] 07-06-2023 00:14:02 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:14:03 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:14:59 [main] [Log] - Loaded all properties files.
+[INFO ] 07-06-2023 00:14:59 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 07-06-2023 00:14:59 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:15:01 [main] [Log] - TestBase: beforeSuite
+[INFO ] 07-06-2023 00:15:04 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:15:04 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:16:15 [main] [Log] - Loaded all properties files.
+[INFO ] 07-06-2023 00:16:15 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 07-06-2023 00:16:15 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:16:17 [main] [Log] - TestBase: beforeSuite
+[INFO ] 07-06-2023 00:16:20 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:16:21 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:18:19 [main] [Log] - Loaded all properties files.
+[INFO ] 07-06-2023 00:18:19 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 07-06-2023 00:18:20 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:18:21 [main] [Log] - TestBase: beforeSuite
+[INFO ] 07-06-2023 00:23:04 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:23:16 [main] [Log] - Loaded all properties files.
+[INFO ] 07-06-2023 00:23:16 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 07-06-2023 00:23:16 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:23:18 [main] [Log] - TestBase: beforeSuite
+[INFO ] 07-06-2023 00:23:21 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:23:22 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:25:21 [main] [Log] - Loaded all properties files.
+[INFO ] 07-06-2023 00:25:21 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 07-06-2023 00:25:21 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:25:22 [main] [Log] - TestBase: beforeSuite
+[INFO ] 07-06-2023 00:25:25 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:25:26 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:27:12 [main] [Log] - Loaded all properties files.
+[INFO ] 07-06-2023 00:27:12 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 07-06-2023 00:27:12 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:27:13 [main] [Log] - TestBase: beforeSuite
+[INFO ] 07-06-2023 00:27:17 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:27:18 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:30:24 [main] [Log] - Loaded all properties files.
+[INFO ] 07-06-2023 00:30:24 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 07-06-2023 00:30:24 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:30:26 [main] [Log] - TestBase: beforeSuite
+[INFO ] 07-06-2023 00:34:14 [main] [Log] - Loaded all properties files.
+[INFO ] 07-06-2023 00:34:14 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 07-06-2023 00:34:14 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:34:15 [main] [Log] - TestBase: beforeSuite
+[INFO ] 07-06-2023 00:34:17 [main] [Log] - 
+TestListener: COMPLETED TC: Login_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 07-06-2023 00:34:18 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 12-06-2023 13:46:14 [main] [Log] - Loaded all properties files.
+[INFO ] 12-06-2023 13:46:14 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 12-06-2023 13:46:16 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 12-06-2023 13:46:25 [main] [Log] - TestBase: beforeSuite
+[INFO ] 12-06-2023 13:46:47 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 12-06-2023 13:46:58 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 12-06-2023 17:33:22 [main] [Log] - Loaded all properties files.
+[INFO ] 12-06-2023 17:33:22 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 12-06-2023 17:33:23 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 12-06-2023 17:33:35 [main] [Log] - TestBase: beforeSuite
+[INFO ] 12-06-2023 17:34:03 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 12-06-2023 17:34:14 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 12-06-2023 17:40:59 [main] [Log] - Loaded all properties files.
+[INFO ] 12-06-2023 17:40:59 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 12-06-2023 17:41:01 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 12-06-2023 17:41:14 [main] [Log] - TestBase: beforeSuite
+[INFO ] 12-06-2023 17:44:11 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 12-06-2023 21:22:41 [main] [Log] - Loaded all properties files.
+[INFO ] 12-06-2023 21:22:41 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 12-06-2023 21:22:43 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 12-06-2023 21:22:49 [main] [Log] - TestBase: beforeSuite
+[INFO ] 12-06-2023 21:23:10 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 12-06-2023 21:23:17 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 12-06-2023 21:26:19 [main] [Log] - Loaded all properties files.
+[INFO ] 12-06-2023 21:26:19 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 12-06-2023 21:26:20 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 12-06-2023 21:26:30 [main] [Log] - TestBase: beforeSuite
+[INFO ] 12-06-2023 21:26:44 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - FAIL 
+---------------------------------------------------------------
+[ERROR] 12-06-2023 21:26:45 [main] [Log] - FAILED !! Screenshot for test case: RegisterPage_03
+[ERROR] 12-06-2023 21:26:45 [main] [Log] - org.testng.internal.reflect.MethodMatcherException: 
+[public void demo.nopcommerce.nopcommerce.testscript.RegisterTest.RegisterPage_03()] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: RegisterPage_03([])
+Arguments: [(demo.nopcommerce.nopcommerce.models.LoginModel) demo.nopcommerce.nopcommerce.models.LoginModel@6b899971]
+[INFO ] 12-06-2023 21:26:50 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------

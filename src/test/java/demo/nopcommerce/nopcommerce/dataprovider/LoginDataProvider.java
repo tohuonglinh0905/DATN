@@ -15,18 +15,18 @@ public class LoginDataProvider {
 
     @DataProvider(name = "login")
     public Object[][] loginProvider() {
-        String xlsFileName = "login1.xlsx";
+        String xlsFileName = "Book2.xlsx";
         String filePath = BaseConst.imgFolderPath + xlsFileName;
 
         var data = xlsReader.readXLSData(filePath);
         List<LoginModel> loginData = new ArrayList<>();
         data.entrySet().stream().filter(v -> !v.getKey().equals("0")).forEach(v -> {
             var rowData = data.get(v.getKey());
-            var loginModel = LoginModel.builder().username(rowData.get(1)).password(rowData.get(2)).build();
+            var loginModel = LoginModel.builder().firstName(rowData.get(1)).lastName(rowData.get(2)).email(rowData.get(3)).password(rowData.get(4)).company(rowData.get(5)).build();
             loginData.add(loginModel);
         });
-        System.out.println("Result" + loginData.get(0));
-        Object[][] result = new Object[loginData.size()][0];
+        //System.out.println("Result" + loginData.get(1));
+        Object[][] result = new Object[loginData.size()][1];
         for (int i = 0; i < loginData.size(); i++) {
             result[i][0] = loginData.get(i);
         }

@@ -1,0 +1,401 @@
+[INFO ] 13-06-2023 13:10:59 [main] [Log] - Loaded all properties files.
+[INFO ] 13-06-2023 13:10:59 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 13-06-2023 13:11:02 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:11:32 [main] [Log] - TestBase: beforeSuite
+[INFO ] 13-06-2023 13:12:14 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 13-06-2023 13:12:14 [main] [WebDriverManager] - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+[INFO ] 13-06-2023 13:12:17 [main] [Downloader] - Downloading https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip
+[INFO ] 13-06-2023 13:12:19 [main] [Downloader] - Extracting driver from compressed file chromedriver_win32.zip
+[INFO ] 13-06-2023 13:12:20 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 13-06-2023 13:12:50 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 13:13:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 13-06-2023 13:13:04 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:13:07 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 13-06-2023 13:13:07 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - FAIL 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:13:08 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/register?returnUrl=%2F
+[ERROR] 13-06-2023 13:13:08 [main] [Log] - FAILED !! Screenshot for test case: RegisterPage_03
+[ERROR] 13-06-2023 13:13:09 [main] [Log] - java.lang.NullPointerException
+[INFO ] 13-06-2023 13:13:10 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:27:07 [main] [Log] - Loaded all properties files.
+[INFO ] 13-06-2023 13:27:08 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 13-06-2023 13:27:08 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:27:15 [main] [Log] - TestBase: beforeSuite
+[INFO ] 13-06-2023 13:27:33 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:27:39 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:29:58 [main] [Log] - Loaded all properties files.
+[INFO ] 13-06-2023 13:29:58 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 13-06-2023 13:30:01 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:30:10 [main] [Log] - TestBase: beforeSuite
+[INFO ] 13-06-2023 13:30:31 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:30:42 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:34:18 [main] [Log] - Loaded all properties files.
+[INFO ] 13-06-2023 13:34:18 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 13-06-2023 13:34:21 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:34:31 [main] [Log] - TestBase: beforeSuite
+[INFO ] 13-06-2023 13:35:03 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 13-06-2023 13:35:04 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 13-06-2023 13:35:43 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 13:36:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 13-06-2023 13:36:03 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:36:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 13-06-2023 13:36:07 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 13-06-2023 13:36:09 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 13-06-2023 13:36:13 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 13-06-2023 13:36:15 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 13-06-2023 13:36:17 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 13-06-2023 13:36:17 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:36:21 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:36:22 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 13-06-2023 13:36:22 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 13-06-2023 13:36:32 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 13:36:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 13-06-2023 13:36:41 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:36:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 13-06-2023 13:36:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 13-06-2023 13:36:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 13-06-2023 13:36:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 13-06-2023 13:36:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 13-06-2023 13:36:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 13-06-2023 13:36:46 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:36:48 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - FAIL 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:36:49 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/register?returnUrl=%2F
+[ERROR] 13-06-2023 13:36:49 [main] [Log] - FAILED !! Screenshot for test case: RegisterPage_03
+[ERROR] 13-06-2023 13:36:50 [main] [Log] - java.lang.AssertionError: expected [Wrong email] but found [Email is required.]
+[INFO ] 13-06-2023 13:36:51 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 13-06-2023 13:36:51 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 13-06-2023 13:36:59 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 13:37:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 13-06-2023 13:37:07 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:37:09 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 13-06-2023 13:37:10 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 13-06-2023 13:37:11 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 13-06-2023 13:37:13 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 13-06-2023 13:37:14 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 13-06-2023 13:37:15 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 13-06-2023 13:37:15 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:37:17 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - FAIL 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:37:18 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/registerresult/1?returnUrl=/
+[ERROR] 13-06-2023 13:37:18 [main] [Log] - FAILED !! Screenshot for test case: RegisterPage_03
+[ERROR] 13-06-2023 13:37:19 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"span#Email-error"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fffe86d21d9c4804355eae32a14cc9f8, findElement {using=css selector, value=span#Email-error}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\nguye\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49559}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49559/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fffe86d21d9c4804355eae32a14cc9f8
+[INFO ] 13-06-2023 13:37:19 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 13-06-2023 13:37:19 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 13-06-2023 13:37:28 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 13:37:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 13-06-2023 13:37:39 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:37:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 13-06-2023 13:37:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 13-06-2023 13:37:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 13-06-2023 13:37:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 13-06-2023 13:37:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 13-06-2023 13:37:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 13-06-2023 13:37:49 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:37:50 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:37:50 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:44:25 [main] [Log] - Loaded all properties files.
+[INFO ] 13-06-2023 13:44:25 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 13-06-2023 13:44:26 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:44:35 [main] [Log] - TestBase: beforeSuite
+[INFO ] 13-06-2023 13:45:05 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 13-06-2023 13:45:05 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 13-06-2023 13:45:39 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 13:45:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 13-06-2023 13:45:55 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:45:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 13-06-2023 13:45:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 13-06-2023 13:46:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 13-06-2023 13:46:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 13-06-2023 13:46:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 13-06-2023 13:46:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 13-06-2023 13:46:05 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:46:09 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:46:10 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 13-06-2023 13:46:10 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 13-06-2023 13:46:20 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 13:46:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 13-06-2023 13:46:31 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:46:35 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 13-06-2023 13:46:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 13-06-2023 13:46:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 13-06-2023 13:46:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 13-06-2023 13:46:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 13-06-2023 13:46:40 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 13-06-2023 13:46:40 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:46:43 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - FAIL 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:46:45 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/register?returnUrl=%2F
+[ERROR] 13-06-2023 13:46:45 [main] [Log] - FAILED !! Screenshot for test case: RegisterPage_03
+[ERROR] 13-06-2023 13:46:46 [main] [Log] - java.lang.AssertionError: expected [Wrong email] but found [Email is required.]
+[INFO ] 13-06-2023 13:46:47 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 13-06-2023 13:46:47 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 13-06-2023 13:47:01 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 13:47:11 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 13-06-2023 13:47:12 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:47:15 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 13-06-2023 13:47:16 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 13-06-2023 13:47:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 13-06-2023 13:47:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 13-06-2023 13:47:21 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 13-06-2023 13:47:23 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 13-06-2023 13:47:23 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:47:25 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - FAIL 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:47:26 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/registerresult/1?returnUrl=/
+[ERROR] 13-06-2023 13:47:26 [main] [Log] - FAILED !! Screenshot for test case: RegisterPage_03
+[ERROR] 13-06-2023 13:47:27 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"span#Email-error"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c98b5a08b37864c576f5e953e6c10c28, findElement {using=css selector, value=span#Email-error}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\nguye\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50011/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c98b5a08b37864c576f5e953e6c10c28
+[INFO ] 13-06-2023 13:47:28 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 13-06-2023 13:47:28 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 13-06-2023 13:47:38 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 13:47:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 13-06-2023 13:47:49 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:47:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 13-06-2023 13:47:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 13-06-2023 13:47:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 13-06-2023 13:47:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 13-06-2023 13:47:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 13-06-2023 13:48:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 13-06-2023 13:48:02 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 13-06-2023 13:48:03 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 13:48:04 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:05:32 [main] [Log] - Loaded all properties files.
+[INFO ] 13-06-2023 14:05:33 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 13-06-2023 14:05:34 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:05:45 [main] [Log] - TestBase: beforeSuite
+[INFO ] 13-06-2023 14:05:55 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 13-06-2023 14:05:55 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ERROR] 13-06-2023 14:07:22 [main] [Log] - org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated beforeMothod.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+[INFO ] 13-06-2023 14:07:23 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 14:07:24 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:07:25 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[ERROR] 13-06-2023 14:07:25 [main] [Log] - org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated beforeMothod.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+[INFO ] 13-06-2023 14:07:25 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 14:07:25 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:07:27 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[ERROR] 13-06-2023 14:07:27 [main] [Log] - org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated beforeMothod.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+[INFO ] 13-06-2023 14:07:27 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 14:07:27 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:07:29 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[ERROR] 13-06-2023 14:07:29 [main] [Log] - org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated beforeMothod.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+[INFO ] 13-06-2023 14:07:29 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 14:07:29 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:07:30 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[INFO ] 13-06-2023 14:07:31 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:18:27 [main] [Log] - Loaded all properties files.
+[INFO ] 13-06-2023 14:18:27 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 13-06-2023 14:18:31 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:18:37 [main] [Log] - TestBase: beforeSuite
+[INFO ] 13-06-2023 14:18:51 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 13-06-2023 14:18:51 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ERROR] 13-06-2023 14:20:07 [main] [Log] - org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated beforeMothod.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+[INFO ] 13-06-2023 14:20:09 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 14:20:09 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:20:13 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[ERROR] 13-06-2023 14:20:13 [main] [Log] - org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated beforeMothod.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+[INFO ] 13-06-2023 14:20:13 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 14:20:13 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:20:15 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[ERROR] 13-06-2023 14:20:19 [main] [Log] - org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated beforeMothod.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+[INFO ] 13-06-2023 14:20:19 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 14:20:19 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:20:21 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[ERROR] 13-06-2023 14:20:21 [main] [Log] - org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated beforeMothod.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+[INFO ] 13-06-2023 14:20:21 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 14:20:21 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:20:22 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[INFO ] 13-06-2023 14:20:23 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:29:34 [main] [Log] - Loaded all properties files.
+[INFO ] 13-06-2023 14:29:34 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 13-06-2023 14:29:37 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:29:55 [main] [Log] - TestBase: beforeSuite
+[INFO ] 13-06-2023 14:30:05 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 13-06-2023 14:30:06 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ERROR] 13-06-2023 14:31:25 [main] [Log] - org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated beforeMothod.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+[INFO ] 13-06-2023 14:31:27 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 14:31:27 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:31:30 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[ERROR] 13-06-2023 14:31:30 [main] [Log] - org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated beforeMothod.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+[INFO ] 13-06-2023 14:31:30 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 14:31:31 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:31:32 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[ERROR] 13-06-2023 14:31:32 [main] [Log] - org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated beforeMothod.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+[INFO ] 13-06-2023 14:31:32 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 14:31:32 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:31:33 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[ERROR] 13-06-2023 14:31:33 [main] [Log] - org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated beforeMothod.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+[INFO ] 13-06-2023 14:31:33 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 13-06-2023 14:31:33 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 13-06-2023 14:31:34 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[INFO ] 13-06-2023 14:31:34 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------

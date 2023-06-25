@@ -1,0 +1,318 @@
+[INFO ] 14-06-2023 12:34:18 [main] [Log] - Loaded all properties files.
+[INFO ] 14-06-2023 12:34:18 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 14-06-2023 12:34:20 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 14-06-2023 12:34:27 [main] [Log] - TestBase: beforeSuite
+[INFO ] 14-06-2023 12:35:07 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 14-06-2023 12:35:07 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 14-06-2023 12:35:44 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 14-06-2023 12:35:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 14-06-2023 12:35:56 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 14-06-2023 12:35:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 14-06-2023 12:36:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 14-06-2023 12:36:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 14-06-2023 12:36:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 14-06-2023 12:36:05 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 14-06-2023 12:36:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 14-06-2023 12:36:06 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 14-06-2023 12:36:08 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 12:36:09 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 14-06-2023 12:36:09 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 14-06-2023 12:36:16 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 14-06-2023 12:36:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 14-06-2023 12:36:25 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 14-06-2023 12:36:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 14-06-2023 12:36:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 14-06-2023 12:36:28 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 14-06-2023 12:36:28 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 14-06-2023 12:36:28 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 14-06-2023 12:36:29 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 14-06-2023 12:36:29 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 14-06-2023 12:36:31 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - FAIL 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 12:36:32 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/register?returnUrl=%2F
+[ERROR] 14-06-2023 12:36:32 [main] [Log] - FAILED !! Screenshot for test case: RegisterPage_03
+[ERROR] 14-06-2023 12:36:33 [main] [Log] - java.lang.AssertionError: expected [Password must meet the following rules:
+must have at least 6 characters] but found [Password is required.]
+[INFO ] 14-06-2023 12:36:33 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 14-06-2023 12:36:34 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 14-06-2023 12:36:42 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 14-06-2023 12:36:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 14-06-2023 12:36:51 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 14-06-2023 12:36:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 14-06-2023 12:36:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 14-06-2023 12:36:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 14-06-2023 12:36:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 14-06-2023 12:36:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 14-06-2023 12:36:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 14-06-2023 12:37:00 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 14-06-2023 12:37:02 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 12:37:02 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 14-06-2023 12:37:02 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 14-06-2023 12:37:09 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 14-06-2023 12:37:17 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 14-06-2023 12:37:18 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 14-06-2023 12:37:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 14-06-2023 12:37:21 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 14-06-2023 12:37:22 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 14-06-2023 12:37:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 14-06-2023 12:37:25 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 14-06-2023 12:37:26 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 14-06-2023 12:37:26 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 14-06-2023 12:37:26 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 12:37:27 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 12:59:07 [main] [Log] - Loaded all properties files.
+[INFO ] 14-06-2023 12:59:07 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 14-06-2023 12:59:09 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 14-06-2023 12:59:25 [main] [Log] - TestBase: beforeSuite
+[INFO ] 14-06-2023 12:59:36 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 14-06-2023 12:59:37 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 14-06-2023 13:00:26 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 14-06-2023 13:00:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 14-06-2023 13:00:38 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:00:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 14-06-2023 13:00:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 14-06-2023 13:00:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 14-06-2023 13:00:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 14-06-2023 13:00:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 14-06-2023 13:00:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 14-06-2023 13:00:49 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:00:51 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 13:00:51 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 14-06-2023 13:00:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 14-06-2023 13:00:55 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:00:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 14-06-2023 13:00:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 14-06-2023 13:00:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 14-06-2023 13:00:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 14-06-2023 13:00:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 14-06-2023 13:00:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 14-06-2023 13:00:58 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:01:00 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 13:01:00 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 14-06-2023 13:01:05 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 14-06-2023 13:01:06 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:01:09 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 14-06-2023 13:01:12 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 14-06-2023 13:01:14 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 14-06-2023 13:01:16 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 14-06-2023 13:01:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 14-06-2023 13:01:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 14-06-2023 13:01:19 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:01:21 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 13:01:21 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 14-06-2023 13:01:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 14-06-2023 13:01:24 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:01:26 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 14-06-2023 13:01:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 14-06-2023 13:01:28 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 14-06-2023 13:01:30 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 14-06-2023 13:01:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 14-06-2023 13:01:32 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 14-06-2023 13:01:32 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:01:33 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 13:01:33 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 13:24:31 [main] [Log] - Loaded all properties files.
+[INFO ] 14-06-2023 13:24:31 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 14-06-2023 13:24:32 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 14-06-2023 13:24:38 [main] [Log] - TestBase: beforeSuite
+[INFO ] 14-06-2023 13:24:56 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 14-06-2023 13:24:56 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 14-06-2023 13:26:12 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 14-06-2023 13:26:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 14-06-2023 13:26:54 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:26:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 14-06-2023 13:27:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 14-06-2023 13:27:09 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 14-06-2023 13:27:22 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 14-06-2023 13:27:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 14-06-2023 13:27:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 14-06-2023 13:27:38 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:27:41 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 13:27:41 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 14-06-2023 13:27:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 14-06-2023 13:27:46 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:27:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 14-06-2023 13:27:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 14-06-2023 13:27:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 14-06-2023 13:27:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 14-06-2023 13:27:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 14-06-2023 13:27:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 14-06-2023 13:27:50 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:27:52 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 13:27:52 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 14-06-2023 13:27:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 14-06-2023 13:27:57 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:27:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 14-06-2023 13:28:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 14-06-2023 13:28:01 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 14-06-2023 13:28:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 14-06-2023 13:28:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 14-06-2023 13:28:11 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 14-06-2023 13:28:11 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:28:13 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 13:28:13 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 14-06-2023 13:28:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 14-06-2023 13:28:18 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:28:22 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 14-06-2023 13:28:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 14-06-2023 13:28:30 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 14-06-2023 13:28:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 14-06-2023 13:28:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 14-06-2023 13:28:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 14-06-2023 13:28:52 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:28:53 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 13:28:53 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 13:30:39 [main] [Log] - Loaded all properties files.
+[INFO ] 14-06-2023 13:30:39 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 14-06-2023 13:30:41 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 14-06-2023 13:30:47 [main] [Log] - TestBase: beforeSuite
+[INFO ] 14-06-2023 13:30:53 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 14-06-2023 13:30:53 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\nguye\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 14-06-2023 13:31:40 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  Login_01
+[INFO ] 14-06-2023 13:31:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 14-06-2023 13:31:49 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:31:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 14-06-2023 13:31:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 14-06-2023 13:31:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 14-06-2023 13:31:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 14-06-2023 13:31:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 14-06-2023 13:31:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 14-06-2023 13:31:57 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 14-06-2023 13:31:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Log in'] : visible
+[INFO ] 14-06-2023 13:31:59 [main] [Log] - waitForElementVisible: Element //a[text()='Log in'] : visible
+[INFO ] 14-06-2023 13:32:00 [main] [Log] - waitForElementClickable: Element //a[text()='Log in'] : clickable
+[INFO ] 14-06-2023 13:32:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 14-06-2023 13:32:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 14-06-2023 13:32:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Log in'] : visible
+[INFO ] 14-06-2023 13:32:04 [main] [Log] - waitForElementClickable: Element //button[text()='Log in'] : clickable
+[INFO ] 14-06-2023 13:32:09 [main] [Log] - 
+TestListener: COMPLETED TC: Login_01 - PASS 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 13:32:09 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  Login_01
+[ERROR] 14-06-2023 13:32:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : invisible 
+[INFO ] 14-06-2023 13:32:30 [main] [Log] - 
+TestListener: COMPLETED TC: Login_01 - FAIL 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 13:32:33 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/
+[ERROR] 14-06-2023 13:32:33 [main] [Log] - FAILED !! Screenshot for test case: Login_01
+[ERROR] 14-06-2023 13:32:35 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Register']"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0841b9e4d73780537bef81ac71640b80, findElement {using=xpath, value=//a[text()='Register']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\nguye\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64554}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64554/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0841b9e4d73780537bef81ac71640b80
+[INFO ] 14-06-2023 13:32:36 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  Login_01
+[ERROR] 14-06-2023 13:32:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : invisible 
+[INFO ] 14-06-2023 13:33:00 [main] [Log] - 
+TestListener: COMPLETED TC: Login_01 - FAIL 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 13:33:02 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/
+[ERROR] 14-06-2023 13:33:02 [main] [Log] - FAILED !! Screenshot for test case: Login_01
+[ERROR] 14-06-2023 13:33:04 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Register']"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0841b9e4d73780537bef81ac71640b80, findElement {using=xpath, value=//a[text()='Register']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\nguye\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64554}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64554/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0841b9e4d73780537bef81ac71640b80
+[INFO ] 14-06-2023 13:33:05 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  Login_01
+[ERROR] 14-06-2023 13:33:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : invisible 
+[INFO ] 14-06-2023 13:33:29 [main] [Log] - 
+TestListener: COMPLETED TC: Login_01 - FAIL 
+---------------------------------------------------------------
+[INFO ] 14-06-2023 13:33:31 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://demo.nopcommerce.com/
+[ERROR] 14-06-2023 13:33:31 [main] [Log] - FAILED !! Screenshot for test case: Login_01
+[ERROR] 14-06-2023 13:33:34 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Register']"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0841b9e4d73780537bef81ac71640b80, findElement {using=xpath, value=//a[text()='Register']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\nguye\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64554}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64554/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0841b9e4d73780537bef81ac71640b80
+[INFO ] 14-06-2023 13:33:34 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------

@@ -37,14 +37,16 @@ public class LoginTest extends TestBase {
         WebDriver driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
         DriverManager.setDriver(driver);
 
-        //homePage = new HomePage(DriverManager.getDriver());
-//        registerPage = homePage.registerPage();
-    }
-    @BeforeMethod(alwaysRun = true)
-    public void beforeMothod(){
         homePage = new HomePage(DriverManager.getDriver());
-
+//        registerPage = homePage.registerPage();
+//    }
     }
+//    @BeforeTest(alwaysRun = true)
+//    public void beforeMothod(LoginModel loginModel){
+//        homePage = new HomePage(DriverManager.getDriver());
+//
+//
+//    }
 
     @AfterMethod(alwaysRun = true)
     public void closeDriver() {
@@ -63,7 +65,7 @@ public class LoginTest extends TestBase {
     }
     @MisaAnnotation(category = {CategoryType.REGRESSION}, author = {AuthorType.Linh}, reviewer = {AuthorType.Linh})
 //    @Test(priority = 1, description = "Cập nhật đầy đủ thông tin cá nhân")
-    @Test(priority = 1,dataProvider = "login", dataProviderClass = LoginDataProvider.class)
+    @Test(priority = 2,dataProvider = "login", dataProviderClass = LoginDataProvider.class)
     public void MyAccount_01(LoginModel loginModel) {
         registerPage = homePage.registerPage();
         registerPage.createAccount(loginModel);
@@ -86,7 +88,7 @@ public class LoginTest extends TestBase {
 
     @MisaAnnotation(category = {CategoryType.REGRESSION}, author = {AuthorType.Linh}, reviewer = {AuthorType.Linh})
 //    @Test(priority = 1, description = "Kiểm tra danh sách yêu thích khi không click vào Ram và HDD")
-    @Test(priority = 1)
+    @Test(priority = 4)
     public void WishList_01() {
         homePage = homePage.gotoHomePage();
         wishlist = homePage.goToWishlistPage();
@@ -95,7 +97,7 @@ public class LoginTest extends TestBase {
 
     @MisaAnnotation(category = {CategoryType.REGRESSION}, author = {AuthorType.Linh}, reviewer = {AuthorType.Linh})
 //    @Test(priority = 2, description = "Kiểm tra danh sách yêu thích khi nhập đầu đủ Ram và HDD")
-    @Test(priority = 2)
+    @Test(priority = 5)
     public void WishList_02() {
         homePage = homePage.gotoHomePage();
         wishlist = homePage.goToWishlistPage();
@@ -104,7 +106,7 @@ public class LoginTest extends TestBase {
 
     @MisaAnnotation(category = {CategoryType.REGRESSION}, author = {AuthorType.Linh}, reviewer = {AuthorType.Linh})
 //    @Test(priority = 1, description = "Thêm địa chỉ mới khi đã login tài khoản")
-    @Test(priority = 1,dataProvider = "login", dataProviderClass = LoginDataProvider.class)
+    @Test(priority = 3,dataProvider = "login", dataProviderClass = LoginDataProvider.class)
     public void Addresses(LoginModel loginModel) {
         registerPage = homePage.registerPage();
         registerPage.createAccount(loginModel);
